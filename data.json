@@ -1,6 +1,6 @@
 {
  "cliente": "Vanessa Kreitchmann",
- "atualizado_em": "2026-11-19T19:15:41-03:00",
+ "atualizado_em": "2026-11-19T19:16:16-03:00",
  "saldo": {
   "valor": 18.46,
   "lido_em": "2026-11-19T16:40:00-03:00"
@@ -16,7 +16,7 @@
  },
  "hoje": {
   "data": "2026-11-19",
-  "gasto": 142.72,
+  "gasto": 142.85,
   "conversas": 12
  },
  "ontem": {
@@ -30,7 +30,7 @@
   "conversas": 26
  },
  "mes": {
-  "gasto": 6397.53,
+  "gasto": 6397.66,
   "conversas": 485
  },
  "dias": [

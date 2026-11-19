@@ -48,9 +48,12 @@ def conv(row):
     return 0
 
 
-def titulo(c):
-    body = (c.get("body") or c.get("name") or "").strip()
-    linha = next((l.strip() for l in body.splitlines() if l.strip()), "Anúncio")
+def titulo(c, reserva="Anúncio"):
+    import re
+    body = (c.get("body") or "").strip()
+    linha = next((l.strip() for l in body.splitlines() if l.strip()), "")
+    if not linha or re.match(r"^\d{4}-\d{2}-\d{2}-[0-9a-f]+$", linha):
+        linha = reserva
     linha = linha.strip("🎾🚨⚠️💬📲✨ ").strip()
     return linha[:70] + ("…" if len(linha) > 70 else "")
 
@@ -70,7 +73,7 @@ def dados():
         cid = a.get("creative_id")
         if not cid:
             continue
-        g = agg.setdefault(cid, {"gasto": 0.0, "conversas": 0})
+        g = agg.setdefault(cid, {"gasto": 0.0, "conversas": 0, "nome": (a.get("name") or "Anúncio").replace(" — Cópia", "")})
         g["gasto"] += num(a.get("amount_spent"))
         g["conversas"] += conv(a)
     criativos = []
@@ -78,7 +81,7 @@ def dados():
         c = crs.get(cid, {})
         criativos.append({
             "id": cid,
-            "titulo": titulo(c) if c else "Anúncio",
+            "titulo": titulo(c, g["nome"]) if c else g["nome"],
             "tipo": "vídeo" if c.get("video_id") or c.get("object_type") == "VIDEO" else "imagem",
             "gasto": round(g["gasto"], 2),
             "conversas": g["conversas"],

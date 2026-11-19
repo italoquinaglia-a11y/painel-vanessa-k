@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Painel de anúncios — Vanessa Kreitchmann</title>
+<style>
+:root{--bg:#f7f4ee;--card:#fff;--tx:#1f2a30;--mut:#6b7780;--ln:#ebe5da;--ac:#0f7c8a;--ac2:#e7f3f4;--ok:#1e8a5a;--bad:#c4402c;--badbg:#fdecea;--warn:#a8610a}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+.wrap{max-width:720px;margin:0 auto;padding:18px 16px 40px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.logo{width:42px;height:42px;border-radius:50%;background:var(--ac);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0}
+h1{font-size:18px;margin:0;line-height:1.2}
+.sub{color:var(--mut);font-size:12.5px}
+.alert{display:none;background:var(--badbg);color:var(--bad);border:1px solid #f5c2bb;border-radius:14px;padding:12px 14px;margin-bottom:12px;font-weight:600}
+.alert small{display:block;font-weight:400;color:#8a3a2e;margin-top:2px}
+.saldo{background:var(--ac);color:#fff;border-radius:18px;padding:18px;margin-bottom:12px}
+.saldo .l{font-size:13px;opacity:.85}
+.saldo .v{font-size:34px;font-weight:700;letter-spacing:-.5px;margin:2px 0}
+.saldo .m{font-size:12.5px;opacity:.85}
+.saldo.low{background:var(--bad)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.k{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:14px}
+.k .l{color:var(--mut);font-size:12.5px}
+.k .v{font-size:22px;font-weight:700;margin-top:2px}
+.k .d{font-size:12px;margin-top:2px}
+.up{color:var(--ok)}.down{color:var(--bad)}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:14px;margin-bottom:12px}
+h2{font-size:15px;margin:0 0 2px}
+.h2s{color:var(--mut);font-size:12.5px;margin-bottom:10px}
+.cr{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--ln)}
+.cr:first-of-type{border-top:0}
+.cr img{width:56px;height:56px;border-radius:10px;object-fit:cover;background:var(--ac2);flex-shrink:0}
+.cr .t{flex:1;min-width:0}
+.cr .t b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-size:14px;font-weight:600;line-height:1.3;overflow:hidden}
+.cr .t span{color:var(--mut);font-size:12.5px}
+.cr .n{text-align:right;flex-shrink:0}
+.cr .n b{display:block;font-size:16px}
+.cr .n span{color:var(--mut);font-size:11.5px}
+.badge{display:inline-block;background:#fff4dc;color:var(--warn);font-size:11px;font-weight:600;padding:1px 7px;border-radius:99px;margin-left:4px;vertical-align:1px}
+.top{background:var(--ac2);color:var(--ac)}
+.chart{display:flex;align-items:flex-end;gap:4px;height:120px;margin-top:6px}
+.bar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.bar i{display:block;width:100%;background:var(--ac);border-radius:5px 5px 2px 2px;min-height:2px;opacity:.85}
+.bar.fds i{background:#b9c6c9}
+.bar em{font-style:normal;font-size:10px;color:var(--mut);margin-top:4px}
+.bar u{text-decoration:none;font-size:10px;color:var(--tx);margin-bottom:2px}
+.leg{display:flex;gap:14px;font-size:11.5px;color:var(--mut);margin-top:8px}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--ac);margin-right:5px;vertical-align:-1px}
+.leg i.f{background:#b9c6c9}
+.plan{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;margin-top:4px}
+.plan div{background:var(--bg);border-radius:10px;padding:8px 2px;font-size:11.5px;color:var(--mut)}
+.plan div b{display:block;color:var(--tx);font-size:13px;margin-top:2px}
+.plan div.hi{background:var(--ac2)}
+.plan div.today{outline:2px solid var(--ac)}
+footer{color:var(--mut);font-size:11.5px;text-align:center;margin-top:18px;line-height:1.6}
+.err{background:var(--badbg);color:var(--bad);padding:14px;border-radius:12px}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="sub">Carregando…</p></div>
+<script>
+const R=v=>"R$ "+Number(v||0).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+const N=v=>Number(v||0).toLocaleString("pt-BR");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const DS=["dom","seg","ter","qua","qui","sex","sab"],DSL=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+const dt=iso=>new Date(iso.length===10?iso+"T12:00:00-03:00":iso);
+const fdia=iso=>{const d=dt(iso);return DSL[d.getDay()]+" "+String(d.getDate()).padStart(2,"0")+"/"+String(d.getMonth()+1).padStart(2,"0")};
+const fhora=iso=>{const d=dt(iso);return d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).replace(",", " às")};
+const cpc=(g,c)=>c?R(g/c):"—";
+function delta(a,b,inv){if(!b)return"";const p=(a-b)/b*100;if(Math.abs(p)<1)return'<span class="d">igual a anteontem</span>';const good=inv?p<0:p>0;return`<span class="d ${good?"up":"down"}">${p>0?"▲":"▼"} ${Math.abs(p).toFixed(0)}% vs. anteontem</span>`}
+function render(d){
+  const hojeIdx=dt(d.hoje.data).getDay(),verbaHoje=d.verba_semana[DS[hojeIdx]]||d.verba_diaria_hoje||0;
+  const media=(d.verba_semana?Object.values(d.verba_semana).reduce((a,b)=>a+b,0)/7:verbaHoje)||1;
+  const dias=d.saldo&&d.saldo.valor!=null?d.saldo.valor/media:null,low=dias!=null&&dias<2;
+  const o=d.ontem,a=d.anteontem,cO=o.conversas?o.gasto/o.conversas:0,cA=a&&a.conversas?a.gasto/a.conversas:0;
+  const mx=Math.max(...d.dias.map(x=>x.gasto),1);
+  const crs=[...d.criativos].sort((x,y)=>y.conversas-x.conversas||y.gasto-x.gasto);
+  let h=`<header><div class="logo">VK</div><div><h1>Seus anúncios</h1><div class="sub">${esc(d.cliente)} · atualizado ${fhora(d.atualizado_em)}</div></div></header>`;
+  if(low)h+=`<div class="alert" style="display:block">⚠️ Saldo acabando: é hora de recarregar<small>O saldo atual cobre menos de 2 dias de anúncios. Sem saldo, a Meta pausa os anúncios.</small></div>`;
+  h+=`<div class="saldo ${low?"low":""}"><div class="l">Saldo disponível na conta</div><div class="v">${d.saldo&&d.saldo.valor!=null?R(d.saldo.valor):"—"}</div><div class="m">${d.saldo&&d.saldo.lido_em?"conferido "+fhora(d.saldo.lido_em):"ainda não conferido"}${dias!=null?(dias<1?" · dá para menos de 1 dia":" · dá para cerca de "+Math.floor(dias)+(Math.floor(dias)===1?" dia":" dias")):""}</div></div>`;
+  h+=`<div class="grid">
+   <div class="k"><div class="l">Investido ontem (${fdia(o.data)})</div><div class="v">${R(o.gasto)}</div>${a?delta(o.gasto,a.gasto):""}</div>
+   <div class="k"><div class="l">Conversas no WhatsApp ontem</div><div class="v">${N(o.conversas)}</div>${a?delta(o.conversas,a.conversas):""}</div>
+   <div class="k"><div class="l">Custo por conversa ontem</div><div class="v">${cpc(o.gasto,o.conversas)}</div>${cA?delta(cO,cA,true):""}</div>
+   <div class="k"><div class="l">Hoje até agora</div><div class="v">${R(d.hoje.gasto)}</div><div class="d sub">${N(d.hoje.conversas)} conversas</div></div>
+  </div>`;
+  h+=`<div class="card"><h2>Este mês</h2><div class="h2s">Do dia 1 até agora</div><div class="grid" style="margin:0"><div><div class="sub">Investido</div><b style="font-size:20px">${R(d.mes.gasto)}</b></div><div><div class="sub">Conversas · custo médio</div><b style="font-size:20px">${N(d.mes.conversas)}</b> <span class="sub">· ${cpc(d.mes.gasto,d.mes.conversas)}</span></div></div></div>`;
+  h+=`<div class="card"><h2>Vídeos e posts rodando</h2><div class="h2s">Os que mais trouxeram conversas nos ${esc(d.criativos_periodo)}</div>`+
+   crs.map((c,i)=>`<div class="cr"><img src="${esc(c.miniatura)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div class="t"><b>${esc(c.titulo)}</b><span>${c.tipo==="imagem"?"Imagem":"Vídeo"} · ${R(c.gasto)}${i===0&&c.conversas?'<span class="badge top">melhor</span>':""}${!c.gasto?'<span class="badge">começando</span>':""}</span></div><div class="n"><b>${N(c.conversas)}</b><span>${c.conversas?cpc(c.gasto,c.conversas)+"/conversa":"conversas"}</span></div></div>`).join("")+`</div>`;
+  h+=`<div class="card"><h2>Investimento por dia</h2><div class="h2s">Últimos ${d.dias.length} dias · o número em cima é a quantidade de conversas</div><div class="chart">`+
+   d.dias.map(x=>{const w=dt(x.data).getDay();return`<div class="bar ${w===5||w===6?"fds":""}" title="${fdia(x.data)}: ${R(x.gasto)} · ${x.conversas} conversas"><u>${x.conversas}</u><i style="height:${Math.max(2,x.gasto/mx*100)}%"></i><em>${String(dt(x.data).getDate())}</em></div>`}).join("")+
+   `</div><div class="leg"><span><i></i>dias de foco</span><span><i class="f"></i>sexta e sábado (verba menor)</span></div></div>`;
+  if(d.verba_semana)h+=`<div class="card"><h2>Verba planejada por dia</h2><div class="h2s">Mais investimento nos dias de maior procura</div><div class="plan">`+DS.map((k,i)=>`<div class="${["dom","seg","ter"].includes(k)?"hi":""} ${i===hojeIdx?"today":""}">${DSL[i]}<b>${Math.round(d.verba_semana[k])}</b></div>`).join("")+`</div></div>`;
+  h+=`<footer>Valores em reais, conforme a Meta. Conversas = pessoas que iniciaram conversa no WhatsApp pelos anúncios.<br>Atualizado automaticamente todos os dias.</footer>`;
+  document.getElementById("app").innerHTML=h;
+}
+fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render).catch(()=>{document.getElementById("app").innerHTML='<div class="err">Não foi possível carregar os dados agora. Tente de novo em alguns minutos.</div>'});
+</script>
+</body>
+</html>

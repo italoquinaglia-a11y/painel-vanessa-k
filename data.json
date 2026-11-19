@@ -1,0 +1,192 @@
+{
+ "cliente": "Vanessa Kreitchmann",
+ "atualizado_em": "2026-11-19T18:45:00-03:00",
+ "saldo": {
+  "valor": 18.46,
+  "lido_em": "2026-11-19T16:40:00-03:00"
+ },
+ "verba_diaria_hoje": 251.81,
+ "verba_semana": {
+  "dom": 350,
+  "seg": 350,
+  "ter": 350,
+  "qua": 252,
+  "qui": 252,
+  "sex": 213,
+  "sab": 213
+ },
+ "hoje": {
+  "data": "2026-11-19",
+  "gasto": 141.2,
+  "conversas": 12
+ },
+ "ontem": {
+  "data": "2026-11-18",
+  "gasto": 317.68,
+  "conversas": 33
+ },
+ "anteontem": {
+  "data": "2026-11-17",
+  "gasto": 328.89,
+  "conversas": 26
+ },
+ "mes": {
+  "gasto": 6396.01,
+  "conversas": 485
+ },
+ "dias": [
+  {
+   "data": "2026-11-05",
+   "gasto": 313.17,
+   "conversas": 22
+  },
+  {
+   "data": "2026-11-06",
+   "gasto": 256.69,
+   "conversas": 17
+  },
+  {
+   "data": "2026-11-07",
+   "gasto": 190.79,
+   "conversas": 5
+  },
+  {
+   "data": "2026-11-08",
+   "gasto": 385.71,
+   "conversas": 48
+  },
+  {
+   "data": "2026-11-09",
+   "gasto": 429.29,
+   "conversas": 31
+  },
+  {
+   "data": "2026-11-10",
+   "gasto": 278.88,
+   "conversas": 15
+  },
+  {
+   "data": "2026-11-11",
+   "gasto": 379.92,
+   "conversas": 35
+  },
+  {
+   "data": "2026-11-12",
+   "gasto": 341.55,
+   "conversas": 21
+  },
+  {
+   "data": "2026-11-13",
+   "gasto": 449.33,
+   "conversas": 34
+  },
+  {
+   "data": "2026-11-14",
+   "gasto": 208.54,
+   "conversas": 16
+  },
+  {
+   "data": "2026-11-15",
+   "gasto": 407.27,
+   "conversas": 28
+  },
+  {
+   "data": "2026-11-16",
+   "gasto": 350.04,
+   "conversas": 26
+  },
+  {
+   "data": "2026-11-17",
+   "gasto": 328.89,
+   "conversas": 26
+  },
+  {
+   "data": "2026-11-18",
+   "gasto": 317.68,
+   "conversas": 33
+  }
+ ],
+ "criativos_periodo": "últimos 7 dias",
+ "criativos": [
+  {
+   "id": "1639683090452780",
+   "titulo": "Feedbacks de clientes (post)",
+   "tipo": "imagem",
+   "gasto": 161.29,
+   "conversas": 20,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQJEVu6aRSHZtLX07hiLoFmKFEXlVPkgjhX21ycNNMLkdFtcUf3zkyBAsHBPr89PMq_7PXXxTlYU-A&oh=06_Q3_FATnFYHZM3jKI04TO-H4HyShfY8DylDJs1yPVBn1uIfpw&oe=6B015029"
+  },
+  {
+   "id": "857747624015815",
+   "titulo": "Primeira raquete: dica para iniciantes",
+   "tipo": "vídeo",
+   "gasto": 99.52,
+   "conversas": 17,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwHhGJg5&_nc_oc=AdoQOtMzPaDsSOMOZqmvEF3tZZJrDrqzQBtsTsM1U5-P9bdAgnWoQ0KKchFKVLaW3Fg&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQJi7jlca5PasjAnB8f6zbTA7XhvdVwCfJE7f8FCnHPJ447S5ycZkkhKPWHlDNMBCslBY6rgNDj5Vw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQJTJSY7RUXrPHYbA1BCjs8gVSRX0_J9LfuuXLR2sEAWw&oe=6B052BC3"
+  },
+  {
+   "id": "1609377737626744",
+   "titulo": "Não compre sua raquete antes de ver esse vídeo",
+   "tipo": "vídeo",
+   "gasto": 45.27,
+   "conversas": 13,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/884913872_2527643844395575_8788371028307528158_n.avif?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=jtJGPkCyS6cQ7kNvwFF2EOi&_nc_oc=AdpgALdsglQqOiQ-j7fRPm3jSQ68mnkJOT6_DpWi_flvWHcRxXz35VlBXSF-NKzlEII&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQIqph_eoQVKhuqVYY2Pf10gNmyTDEvkoWPBoDSCpGKteiEEalilJmUUYFBi47BavdR4LAr2qfwFWw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQSJj5eUkmcycNU18iszaTnIYzaXSWBIxY-zCNlDc0YhzQ&oe=6B054AD2"
+  },
+  {
+   "id": "2004689976737447",
+   "titulo": "Dor no cotovelo depois de jogar?",
+   "tipo": "vídeo",
+   "gasto": 89.68,
+   "conversas": 7,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=WmbSO-FWxxIQ7kNvwE7q31h&_nc_oc=Adrl0TOJRNGjwQIuiXeAdnZ1O9KJDJb7qnTIC0u3W7QwgqRerYuFQmpbP0Kx_YGpK6o&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQLwHJR1odCBQ6mq7SzC2UcVnUaTCGV3OcJE5ErKJkbA5vsKNCks2gPJ9vdRvKbimDcmQn-O1n37pA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSU9uTjeB-u7Pq-9p9pYPBGZgZjvt-G264yY7CcpkvWOw&oe=6B052DA5"
+  },
+  {
+   "id": "1130593589566620",
+   "titulo": "Teu braço dói jogando? Não normalize",
+   "tipo": "vídeo",
+   "gasto": 97.38,
+   "conversas": 5,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895041009_1718292916299698_7504479404677061556_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=l0WHrShnyXAQ7kNvwHl7-Iv&_nc_oc=AdoUneKBXm6Gnc2rxp3qomVUjiN2_YRNo_PC4MIrJOw1hjvNknEacq3n-QKmiWaJLrc&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQJGQ8Tu4bJhYaavezM9aNh3Xv41slLMqC4nuF2UidKXSQra5FHDEmXPV3_cqZZy0a2MAoJTs6nDbw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQR9gWE2KYVgCf56InVbWbNt9GXgtD_cCyBYimYsEu7nFw&oe=6B0541A2"
+  },
+  {
+   "id": "1686159909353329",
+   "titulo": "Iniciante não precisa de raquete potente",
+   "tipo": "vídeo",
+   "gasto": 110.69,
+   "conversas": 5,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=pmYZ80ZcZNMQ7kNvwH7hHiB&_nc_oc=AdpGhLkshItZqvLszkRMMgxeBZV4x3iU8nBqfIN0j_bzr0rhakC-Yqa7zK0voLYVQME&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQL2411rlKDwOxb3xVssea65tFg2Tnt-hIvX6DZkZHnpb873gkChJUpOIpqqOijPug7N2gjR7TgMaA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSjThRDflCaTjWVC-Wq6VVsGBY3ACF300TdyWudr1pz0w&oe=6B055984"
+  },
+  {
+   "id": "734907959642330",
+   "titulo": "Evite lesões: raquete inadequada",
+   "tipo": "vídeo",
+   "gasto": 66.44,
+   "conversas": 5,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=7UOeRAFz5AYQ7kNvwHj4bLG&_nc_oc=AdrXZElHnX7xMJ_mVHNYASQgQ4OQ-dy4XH4LypcKYW_FrHbm6mMSjpwTOMu1etQK9wU&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQJgyzUYPBxCL_vPSYBtcWg2WubaqGADthYoM8gOQLFDGwkE_WCzAPUnQryWps1Mv6g0AhIqZ3g05w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQS3zFzPOrmv78Jf8VRmDHgbx45PFwMPivVwHf5yd88sg&oe=6B053E5A"
+  },
+  {
+   "id": "1440826168203204",
+   "titulo": "Dor no cotovelo, braço ou ombro? (arte)",
+   "tipo": "imagem",
+   "gasto": 61.09,
+   "conversas": 4,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.1600-4/901519002_122135601339362214_5892951319397631628_n.png?stp=dst-jpg_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=ff4730&_nc_ohc=M-DnQPzUrYoQ7kNvwE8NLPe&_nc_oc=AdqRHnvyvRtuCuPb_o7R2drljP6ogXfzqEwBxBX9zeVoHDpV41mfktYvZMWCLalFoUA&_nc_zt=1&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQIK3GyQJGkhNm-onlPIlAKcKdrgHycf6M7NgGQ-r6DnQ-4lwc09mMIZ2KXcxg3_UvehPMAoDFYeHQ&oh=00_AQTpcLFNczHQ2Pn5Cp7Cp5sbQRPmCaiRqT_WEDKybntCmA&oe=6B052B66"
+  },
+  {
+   "id": "1829456644755495",
+   "titulo": "Raquete de R$ 2.000 que não é a ideal",
+   "tipo": "vídeo",
+   "gasto": 60.54,
+   "conversas": 4,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/895292957_2999467637083664_97780274436002499_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=udg8G9OiNywQ7kNvwHvjt9M&_nc_oc=AdoAFzTX9VbYg1a0cetUQtf1u4jD__AYD5E7TIhPp8WgAgxBF2G9vksnzKcoUgbFCWc&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQL_0CcBWSIR9fUQ5P4psqIWOpemT-PmVLBBMWKblHvUsbBA3-Vw_ZkzdP-By0T8E7O9aZ_h93c4CQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQV8qBCN_kYs97ackfi0HUZ19F_0yioJhV6QB3MtPbf9g&oe=6B052D31"
+  },
+  {
+   "id": "2368459247025868",
+   "titulo": "Quantas raquetes tu ainda vai comprar? (novo)",
+   "tipo": "vídeo",
+   "gasto": 0,
+   "conversas": 0,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/901297901_2392275667844170_5977487189669064197_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=Q0R4b5qGjRYQ7kNvwFoMbPY&_nc_oc=AdowQkuIPfhK32OS4X1XHH42sUsVPhe1oYuKjLDImqGF4EjE2sNvHgM7Nt_wSt44ltw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=cpNE30JFRnmfUG7fi-OpzQ&_nc_tpa=Q5bMBQLX4g_riP0o7ofbdmCybrWb0nul0dHRp1_JKNz8uUwUWZkrLaccrSolA3FiBDt3fPJt2BUtZIo2WQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTBo-3KE_sK2Z3iGTrpnpoYFrQmKY9-pM8Pw-wjm2ZddA&oe=6B052A18"
+  }
+ ]
+}

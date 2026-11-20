@@ -3,6 +3,7 @@
 
 Uso (na pasta do repositório):
   python3 atualizar.py dados        # usa raw/dias.json, raw/mes.json, raw/ads7.json, raw/criativos.json
+  python3 atualizar.py vendas       # só atualiza o ranking de vendas por criativo (raw/vendas.json)
   python3 atualizar.py saldo 123.45 # só atualiza o saldo (lido na tela de cobrança)
 
 Cada arquivo em raw/ é a resposta da ferramenta salva como veio (JSON).
@@ -89,6 +90,9 @@ def dados():
         })
     criativos.sort(key=lambda x: (-x["conversas"], -x["gasto"]))
     criativos = [c for c in criativos if c["gasto"] >= 5 or c["conversas"] > 0][:10]
+    vendas_criativos, vendas_periodo = base.get("vendas_criativos", []), base.get("vendas_periodo")
+    if os.path.exists("raw/vendas.json"):
+        vendas_criativos, vendas_periodo = vendas(crs)
     out = {
         "cliente": base.get("cliente", "Vanessa Kreitchmann"),
         "atualizado_em": agora(),
@@ -101,11 +105,42 @@ def dados():
         "dias": completos,
         "criativos_periodo": "últimos 7 dias",
         "criativos": criativos,
+        "vendas_periodo": vendas_periodo,
+        "vendas_criativos": vendas_criativos,
         "ia": base.get("ia"),
         "estrutura": base.get("estrutura"),
     }
     json.dump(out, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"ok: ontem R$ {out['ontem']['gasto']:.2f}, {len(criativos)} criativos, mês R$ {out['mes']['gasto']:.2f}")
+
+
+def nome_limpo(n):
+    import re
+    n = (n or "Anúncio").replace(" — Cópia", "")
+    return re.sub(r"^(RMKT|ADV|LAL)\s+—\s+", "", n).strip()
+
+
+def vendas(crs=None):
+    """Vendas (Compra) que a Meta ligou a cada anúncio, somadas por criativo.
+    raw/vendas.json: anúncios do mês com name, creative_id, amount_spent, omni_purchase."""
+    crs = crs or {}
+    j = json.load(open("raw/vendas.json", encoding="utf-8"))
+    periodo = j.get("periodo", "este mês") if isinstance(j, dict) else "este mês"
+    agg = {}
+    for a in ler("raw/vendas.json"):
+        v = int(num(a.get("omni_purchase") or a.get("offsite_conversion_fb_pixel_purchase")))
+        if not v:
+            continue
+        nome = nome_limpo(a.get("name"))
+        g = agg.setdefault(nome, {"nome": nome, "vendas": 0, "gasto": 0.0, "miniatura": ""})
+        g["vendas"] += v
+        g["gasto"] += num(a.get("amount_spent"))
+        c = crs.get(a.get("creative_id"), {})
+        g["miniatura"] = g["miniatura"] or c.get("image_url") or c.get("thumbnail_url") or ""
+    out = sorted(agg.values(), key=lambda x: (-x["vendas"], x["gasto"]))
+    for g in out:
+        g["gasto"] = round(g["gasto"], 2)
+    return out, periodo
 
 
 def saldo(valor):
@@ -118,6 +153,12 @@ def saldo(valor):
 if __name__ == "__main__":
     if sys.argv[1:2] == ["dados"]:
         dados()
+    elif sys.argv[1:2] == ["vendas"]:
+        d = json.load(open("data.json", encoding="utf-8"))
+        crs = {c["id"]: {"image_url": c.get("miniatura")} for c in d.get("criativos", [])}
+        d["vendas_criativos"], d["vendas_periodo"] = vendas(crs)
+        json.dump(d, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("ok:", sum(x["vendas"] for x in d["vendas_criativos"]), "vendas em", len(d["vendas_criativos"]), "criativos")
     elif sys.argv[1:2] == ["saldo"] and len(sys.argv) > 2:
         saldo(sys.argv[2])
     else:

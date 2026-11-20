@@ -118,6 +118,7 @@ svg.ch{width:100%;height:190px;display:block;overflow:visible}
 footer{color:var(--mut);font-size:11.5px;text-align:center;margin-top:18px;line-height:1.6}
 .err{background:#fff1ee;color:var(--bad);padding:14px;border-radius:12px;margin-top:20px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.card{opacity:1;transform:none}}
+.vd summary{list-style:none;cursor:pointer}.vd summary::-webkit-details-marker{display:none}.vd[open] summary{border-bottom:none}.vdx{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;opacity:.85;padding:0 0 12px 62px}
 </style>
 </head>
 <body>
@@ -209,6 +210,15 @@ function render(d){
    crs.map((c,i)=>`<div class="cr"><div class="th">${c.miniatura?`<img src="${esc(c.miniatura)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span class="rk ${i===0?"g":""}">${i+1}</span></div>
      <div class="t"><b>${esc(titulo(c.titulo))}</b><div class="meter"><i data-w="${c.conversas/mxc*100}"></i></div></div>
      <div class="n"><b>${N(c.conversas)}</b><span>${c.conversas?R(c.gasto/c.conversas)+"/conv.":"conversas"}</span></div></div>`).join("")+`</div>`;
+
+  const vds=d.vendas_criativos||[];
+  if(vds.length){const mxv2=Math.max(...vds.map(c=>c.vendas),1),totv=vds.reduce((s,c)=>s+c.vendas,0);
+   h+=`<div class="card dark"><h2>De onde vêm as vendas <span class="pill">${N(totv)} vendas</span></h2><div class="h2s">Anúncios que levaram a fechamentos em ${esc(d.vendas_periodo||"este mês")} · toque para ver o custo</div>`+
+   vds.slice(0,8).map((c,i)=>`<details class="vd"><summary class="cr"><div class="th">${c.miniatura?`<img src="${esc(c.miniatura)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span class="rk ${i===0?"g":""}">${i+1}</span></div>
+     <div class="t"><b>${esc(titulo(c.nome))}</b><div class="meter"><i data-w="${c.vendas/mxv2*100}"></i></div></div>
+     <div class="n"><b>${N(c.vendas)}</b><span>${c.vendas===1?"venda":"vendas"}</span></div></summary>
+     <div class="vdx"><span>Investido neste anúncio: <b>${R(c.gasto)}</b></span><span>Custo por venda: <b>${R(c.gasto/c.vendas)}</b></span></div></details>`).join("")+
+   `<div class="leg"><span>Contamos aqui as vendas que a Meta conseguiu ligar a um anúncio. Quem chegou por indicação ou pelo perfil sem clicar em anúncio não aparece.</span></div></div>`;}
 
   if(d.verba_semana){const mxv=Math.max(...Object.values(d.verba_semana),1);
    h+=`<div class="card dark"><h2>Verba por dia da semana</h2><div class="h2s">Mais investimento quando o público mais procura</div><div class="plan">`+

@@ -230,5 +230,74 @@
    "texto": "Em julho, quando a Meta recebia as vendas, o custo por fechamento foi o menor do 2º semestre. Assim que as vendas voltarem a chegar, reativamos esse modelo.",
    "status": "próximo"
   }
- ]
+ ],
+ "vendas_criativos": [
+  {
+   "nome": "Post Feedback",
+   "vendas": 2,
+   "gasto": 499.85,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQLHVithaiqOYlqLIt07GXPfNqEE3pIGFxNGANW55QpcTwmh4M8rV9DOguBnx2AmKAezm_LFtnvq6A&oh=06_Q3_FAQOreYOcbvhVii2oUEEq9Tp7nkKcdzr3b5gsxvtjXjNc&oe=6B015029"
+  },
+  {
+   "nome": "Reels 24.01",
+   "vendas": 1,
+   "gasto": 12.2,
+   "miniatura": ""
+  },
+  {
+   "nome": "Carrossel 08.11",
+   "vendas": 1,
+   "gasto": 98.87,
+   "miniatura": ""
+  },
+  {
+   "nome": "Estático IA Vanessa",
+   "vendas": 1,
+   "gasto": 125.39,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 18.09",
+   "vendas": 1,
+   "gasto": 149.47,
+   "miniatura": ""
+  },
+  {
+   "nome": "Dark Post Raquete Errada",
+   "vendas": 1,
+   "gasto": 156.02,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/884913872_2527643844395575_8788371028307528158_n.avif?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=jtJGPkCyS6cQ7kNvwHW2TPO&_nc_oc=Adpy7W7tPLmF2ZZBilADOTk52LaOo7anqLwY1XkCcZA2CCqT-Gzu3AAe6AfUB6DFiVs&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJUCuWH-6HgkDipkvxTkh6IJi5EjXOTj99Zan9WoFeL1lNeJxXW_4BUQNu9btufUW66cTZh3NkFUA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQRAl5XdmcOSgqYFZ4o6je9v4wDABuqra1YW5GF5jfAX1w&oe=6B054AD2"
+  },
+  {
+   "nome": "Reels 04.10",
+   "vendas": 1,
+   "gasto": 192.65,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895041009_1718292916299698_7504479404677061556_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=l0WHrShnyXAQ7kNvwFFSGpb&_nc_oc=AdpvJr6xMdjJiyuc4oW1rlSiPJDi5IhTqGwIMhLH57nbPqbBoZfRYMz4n2XkCSWrM3M&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQL5zLzXgae6mX_38_gzXJzg_2YguAqrKAR7sP7oE0Vb5742PLyVlKM7HpY6WD9VlYN2lqW4h3-eSg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRtiRTN3uOp8ZyI4ZuqhX3HEUe-wOyuNG3JWU5TcCXabw&oe=6B0541A2"
+  },
+  {
+   "nome": "Reels 27.06",
+   "vendas": 1,
+   "gasto": 194.87,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=pmYZ80ZcZNMQ7kNvwElkvLY&_nc_oc=AdqTN_jWB_g_hj14gL5_90j4uSRYEtZI_XB3MgeOuuYHpOMUnBDLL2EKgERdPrv2nWA&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQII0Rdv8bIswjIrdCctkhScExMkMiiMPLsuSWD5d1gyk6EmGRXwjhWJrI3zrXO91MolUHNFks3XOQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRJ8aiIOsjLIsAK20BjISnuXhrarvs0bepk2ABmgPPCGw&oe=6B055984"
+  },
+  {
+   "nome": "Reels 12.11",
+   "vendas": 1,
+   "gasto": 279.97,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=WmbSO-FWxxIQ7kNvwGbOeKo&_nc_oc=AdqBVH4H3IR5yTs7inWL7xFgCLvFohXOs95HNDytYes2Jo2Zh41VN_ufmcypPOdpTVo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJULHYyQfkpNfdATHMIADsK_4nQapB5mQUiax6aVSp0jvLuWk1LUVAG4MakAiqcEVjlYQKnBX8Yww&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRuAgH_MSfKdYHLintPCpIOe0GS8SuCMmQbMWEiGJf0lA&oe=6B052DA5"
+  },
+  {
+   "nome": "Reels 29.04",
+   "vendas": 1,
+   "gasto": 287.22,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwH-gFMX&_nc_oc=Adpfxh5seRlaJf3sGlKo-zEwYrgE1SsQgK7pvA6C4YwViFMPmtHAPyXEa7NVL_5CpnI&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJQOy7pptUrOlirL_xg9zcNheOVYU64y6bJdE7lL8HDLD1YPQ0vrE3ucMHrj65r4c0Ymx98yosaZg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ7vrd33nGvrxkz0JJozwWX_y_h1cKPnbE5oB_76PWDvw&oe=6B052BC3"
+  },
+  {
+   "nome": "Reels Epicondilite",
+   "vendas": 1,
+   "gasto": 531.5,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwEs5PMz&_nc_oc=Adr_xOmojTcO_6fN-g4MHbsHZ-IRmaNUQxkI5PgiEfHU7rY37xGGz1wLvL9eXM2AjbE&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJCaGVETYIE4vBbXdTlRgQDcd_hC6z7JcqHcYO3Y5EB3cFFqgCu5mCZJaOeyk_yB1isKvO930BE7g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQnhvEs8nuIVMSgwyo7V1WeRl7gMj-0motKmDR4xZX_PQ&oe=6B053E5A"
+  }
+ ],
+ "vendas_periodo": "novembro"
 }

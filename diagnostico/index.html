@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico da sua raquete — Vanessa Kreitchmann</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--navy:#0d1b2a;--y:#f5c400;--sand:#f6efe2;--g:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--navy);color:#fff;min-height:100vh;display:flex;justify-content:center}
+main{width:100%;max-width:520px;padding:28px 20px 40px}
+.tag{display:inline-block;background:var(--y);color:var(--navy);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:20px}
+h1{font-size:30px;line-height:1.15;margin:16px 0 10px}
+h1 em{font-style:normal;color:var(--y)}
+p.lead{opacity:.85;line-height:1.45}
+.bar{height:6px;background:#ffffff22;border-radius:6px;margin:26px 0 22px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--y);transition:width .3s}
+.q{display:none}.q.on{display:block}
+.q h2{font-size:21px;line-height:1.25;margin-bottom:16px}
+.opt{display:block;width:100%;text-align:left;background:#ffffff10;border:1.5px solid #ffffff25;color:#fff;font-size:17px;padding:15px 16px;border-radius:12px;margin-bottom:10px;cursor:pointer}
+.opt:active,.opt:hover{border-color:var(--y);background:#f5c4001a}
+input[type=text]{width:100%;font-size:17px;padding:15px 16px;border-radius:12px;border:1.5px solid #ffffff40;background:#ffffff10;color:#fff}
+.next{margin-top:12px;width:100%;background:var(--y);color:var(--navy);font-weight:700;font-size:17px;padding:15px;border:0;border-radius:12px;cursor:pointer}
+.res{background:var(--sand);color:var(--navy);border-radius:16px;padding:22px}
+.res h2{font-size:22px;margin-bottom:10px}
+.res p{line-height:1.45;margin-bottom:10px}
+.wa{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;background:var(--g);color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:16px;border-radius:40px}
+.small{font-size:12px;opacity:.6;margin-top:22px;line-height:1.4}
+.sig{margin-top:26px;font-size:14px;opacity:.75}
+</style>
+<!-- Pixel Tintim -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','905228488881016');fbq('track','PageView');
+</script>
+</head>
+<body>
+<main>
+  <span class="tag">Diagnóstico gratuito · 30 segundos</span>
+  <h1>Sua raquete está <em>ajudando ou atrapalhando</em> seu braço?</h1>
+  <p class="lead">Responda 4 perguntas e receba no WhatsApp uma primeira leitura da Vanessa Kreitchmann sobre o seu caso.</p>
+  <div class="bar"><i id="bar"></i></div>
+
+  <section class="q on" data-k="categoria">
+    <h2>1. Qual a sua categoria hoje?</h2>
+    <button class="opt">Iniciante</button><button class="opt">D</button><button class="opt">C</button><button class="opt">B</button><button class="opt">A / Pro</button>
+  </section>
+  <section class="q" data-k="frequencia">
+    <h2>2. Quantas vezes você joga por semana?</h2>
+    <button class="opt">1x</button><button class="opt">2x</button><button class="opt">3x</button><button class="opt">4x ou mais</button>
+  </section>
+  <section class="q" data-k="desconforto">
+    <h2>3. Sente algum desconforto depois de jogar?</h2>
+    <button class="opt">Cotovelo</button><button class="opt">Ombro</button><button class="opt">Punho / mão</button><button class="opt">Outro lugar</button><button class="opt">Não sinto</button>
+  </section>
+  <section class="q" data-k="raquete">
+    <h2>4. Qual raquete você usa? (se souber, o peso)</h2>
+    <input type="text" id="rq" placeholder="Ex.: Shark Predator, 360g" maxlength="80">
+    <button class="next" id="fim">Ver meu resultado</button>
+  </section>
+
+  <section class="q" id="resultado">
+    <div class="res">
+      <h2 id="rt"></h2>
+      <p id="rp"></p>
+      <p>A Vanessa analisa nível, frequência, histórico e a raquete atual para indicar peso, balance, EVA e espessura certos — ou só ajustar a que você já tem.</p>
+      <a class="wa" id="wa" href="#" target="_blank" rel="noopener">Enviar meu diagnóstico no WhatsApp</a>
+    </div>
+    <p class="small">Consultoria de equipamento. Não substitui avaliação médica.</p>
+  </section>
+  <p class="sig"><b>Vanessa Kreitchmann</b> · 12 anos desenvolvendo raquetes para grandes marcas</p>
+</main>
+<script>
+// >>> CONFIRMAR o número de WhatsApp da Vanessa (DDI+DDD+número, só dígitos)
+const WHATSAPP = "55XXXXXXXXXXX";
+const qs=[...document.querySelectorAll('.q[data-k]')], ans={}; let i=0;
+const utm=new URLSearchParams(location.search);
+const origem=["utm_source","utm_campaign","utm_content"].map(k=>utm.get(k)).filter(Boolean).join(" / ")||"direto";
+function go(n){qs.forEach(q=>q.classList.remove('on'));if(n<qs.length){qs[n].classList.add('on')}document.getElementById('bar').style.width=(n/qs.length*100)+'%'}
+qs.forEach((q,n)=>q.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{ans[q.dataset.k]=b.textContent;i=n+1;go(i)}));
+document.getElementById('fim').onclick=()=>{
+  ans.raquete=document.getElementById('rq').value.trim()||"não sei";
+  go(qs.length);document.getElementById('resultado').classList.add('on');
+  const dor=ans.desconforto!=="Não sinto", ini=ans.categoria==="Iniciante", comp=["C","D"].includes(ans.categoria);
+  document.getElementById('rt').textContent = dor ? "Vale olhar a configuração da sua raquete." : ini ? "Hora de acertar de primeira." : "Dá para extrair mais do seu jogo.";
+  document.getElementById('rp').textContent = dor
+    ? `Desconforto no ${ans.desconforto.toLowerCase()} é o relato mais comum entre quem procura a consultoria — e muitas vezes tem relação com peso, balance ou rigidez da raquete.`
+    : ini ? "Quem começa com a raquete certa evolui mais rápido e evita trocar duas vezes."
+    : comp ? `Na categoria ${ans.categoria}, a configuração certa faz diferença em controle e consistência nos torneios.`
+    : "Peso, balance e EVA alinhados ao seu estilo fazem diferença no controle e no conforto.";
+  const msg=`Oi Vanessa! Fiz o diagnóstico da raquete:\n• Categoria: ${ans.categoria}\n• Jogo: ${ans.frequencia} por semana\n• Desconforto: ${ans.desconforto}\n• Raquete: ${ans.raquete}\n(origem: ${origem})`;
+  const wa=document.getElementById('wa'); wa.href=`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+  wa.onclick=()=>{try{fbq('track','Contact',{content_category:ans.categoria,content_name:ans.desconforto})}catch(e){}};
+  try{fbq('track','Lead',{content_category:ans.categoria,content_name:ans.desconforto})}catch(e){}
+};
+</script>
+</body>
+</html>

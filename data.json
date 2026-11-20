@@ -1,6 +1,6 @@
 {
  "cliente": "Vanessa Kreitchmann",
- "atualizado_em": "2026-11-19T19:16:16-03:00",
+ "atualizado_em": "2026-11-20T06:52:08-03:00",
  "saldo": {
   "valor": null,
   "lido_em": null
@@ -15,30 +15,25 @@
   "sab": 0
  },
  "hoje": {
-  "data": "2026-11-19",
-  "gasto": 142.85,
-  "conversas": 12
+  "data": "2026-11-20",
+  "gasto": 4.53,
+  "conversas": 1
  },
  "ontem": {
+  "data": "2026-11-19",
+  "gasto": 193.77,
+  "conversas": 19
+ },
+ "anteontem": {
   "data": "2026-11-18",
   "gasto": 317.68,
   "conversas": 33
  },
- "anteontem": {
-  "data": "2026-11-17",
-  "gasto": 328.89,
-  "conversas": 26
- },
  "mes": {
-  "gasto": 6397.66,
-  "conversas": 485
+  "gasto": 6453.11,
+  "conversas": 493
  },
  "dias": [
-  {
-   "data": "2026-11-05",
-   "gasto": 313.17,
-   "conversas": 22
-  },
   {
    "data": "2026-11-06",
    "gasto": 256.69,
@@ -103,96 +98,131 @@
    "data": "2026-11-18",
    "gasto": 317.68,
    "conversas": 33
+  },
+  {
+   "data": "2026-11-19",
+   "gasto": 193.77,
+   "conversas": 19
   }
  ],
  "criativos_periodo": "últimos 7 dias",
  "criativos": [
   {
+   "id": "1143127931656740",
+   "titulo": "📌 SALVA ESSE GUIA antes de comprar sua primeira raquete de beach tenni…",
+   "tipo": "vídeo",
+   "gasto": 2.54,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895824922_1650340476868379_3951041375862091159_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=hRW2pra54KgQ7kNvwGDhyR9&_nc_oc=AdroAjkguFZM0aPa3SfFddPWKPc5ra9o_zayDvCba6y04awedraXCvloJYc31H2cFuw&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&_nc_tpa=Q5bMBQKuJAQH8vdVNAt87xBHPAZqio6Mf1p3hMq7Sgl6K1yL9KAPi7OswRGShWKSgsgjhzuI4xTyH5d5cQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRikSs20dk6h28ZjvTJY9X0ipL6giLeeKSyqI0T0knr_g&oe=6B05E35A"
+  },
+  {
    "id": "1639683090452780",
    "titulo": "Mais consultorias com resultado exatamente como eu esperava. ❤",
    "tipo": "imagem",
-   "gasto": 212.63,
-   "conversas": 34,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQLHVithaiqOYlqLIt07GXPfNqEE3pIGFxNGANW55QpcTwmh4M8rV9DOguBnx2AmKAezm_LFtnvq6A&oh=06_Q3_FAQOreYOcbvhVii2oUEEq9Tp7nkKcdzr3b5gsxvtjXjNc&oe=6B015029"
-  },
-  {
-   "id": "857747624015815",
-   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
-   "tipo": "vídeo",
-   "gasto": 99.52,
-   "conversas": 17,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwH-gFMX&_nc_oc=Adpfxh5seRlaJf3sGlKo-zEwYrgE1SsQgK7pvA6C4YwViFMPmtHAPyXEa7NVL_5CpnI&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJQOy7pptUrOlirL_xg9zcNheOVYU64y6bJdE7lL8HDLD1YPQ0vrE3ucMHrj65r4c0Ymx98yosaZg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ7vrd33nGvrxkz0JJozwWX_y_h1cKPnbE5oB_76PWDvw&oe=6B052BC3"
-  },
-  {
-   "id": "1609377737626744",
-   "titulo": "NÃO COMPRE SUA RAQUETE ANTES DE VER ESSE VÍDEO!",
-   "tipo": "vídeo",
-   "gasto": 45.27,
-   "conversas": 13,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/884913872_2527643844395575_8788371028307528158_n.avif?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=jtJGPkCyS6cQ7kNvwHW2TPO&_nc_oc=Adpy7W7tPLmF2ZZBilADOTk52LaOo7anqLwY1XkCcZA2CCqT-Gzu3AAe6AfUB6DFiVs&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJUCuWH-6HgkDipkvxTkh6IJi5EjXOTj99Zan9WoFeL1lNeJxXW_4BUQNu9btufUW66cTZh3NkFUA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQRAl5XdmcOSgqYFZ4o6je9v4wDABuqra1YW5GF5jfAX1w&oe=6B054AD2"
-  },
-  {
-   "id": "2004689976737447",
-   "titulo": "ente o braço pesar ou aquela dor chata no cotovelo depois de jogar? 😣",
-   "tipo": "vídeo",
-   "gasto": 89.68,
-   "conversas": 7,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=WmbSO-FWxxIQ7kNvwGbOeKo&_nc_oc=AdqBVH4H3IR5yTs7inWL7xFgCLvFohXOs95HNDytYes2Jo2Zh41VN_ufmcypPOdpTVo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJULHYyQfkpNfdATHMIADsK_4nQapB5mQUiax6aVSp0jvLuWk1LUVAG4MakAiqcEVjlYQKnBX8Yww&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRuAgH_MSfKdYHLintPCpIOe0GS8SuCMmQbMWEiGJf0lA&oe=6B052DA5"
-  },
-  {
-   "id": "1686159909353329",
-   "titulo": "A maioria dos iniciantes acredita que precisa de uma raquete mais pote…",
-   "tipo": "vídeo",
-   "gasto": 110.69,
-   "conversas": 5,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=pmYZ80ZcZNMQ7kNvwElkvLY&_nc_oc=AdqTN_jWB_g_hj14gL5_90j4uSRYEtZI_XB3MgeOuuYHpOMUnBDLL2EKgERdPrv2nWA&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQII0Rdv8bIswjIrdCctkhScExMkMiiMPLsuSWD5d1gyk6EmGRXwjhWJrI3zrXO91MolUHNFks3XOQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRJ8aiIOsjLIsAK20BjISnuXhrarvs0bepk2ABmgPPCGw&oe=6B055984"
-  },
-  {
-   "id": "1130593589566620",
-   "titulo": "Teu braço dói jogando Beach Tennis? Não normalize isso.",
-   "tipo": "vídeo",
-   "gasto": 97.38,
-   "conversas": 5,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895041009_1718292916299698_7504479404677061556_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=l0WHrShnyXAQ7kNvwFFSGpb&_nc_oc=AdpvJr6xMdjJiyuc4oW1rlSiPJDi5IhTqGwIMhLH57nbPqbBoZfRYMz4n2XkCSWrM3M&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQL5zLzXgae6mX_38_gzXJzg_2YguAqrKAR7sP7oE0Vb5742PLyVlKM7HpY6WD9VlYN2lqW4h3-eSg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRtiRTN3uOp8ZyI4ZuqhX3HEUe-wOyuNG3JWU5TcCXabw&oe=6B0541A2"
+   "gasto": 5.9,
+   "conversas": 1,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQK8mLrmNJYC34LWCwm9B2c7esg18DbLna10A61dRZLp05kif6O_4__HpoDzvI8G5p0rg1PzWjZa6A&oh=06_Q3_FAQ49v17tlJeI7K2IK3schetqVYfCb3ZsgHrfQrCbTFf3&oe=6B01F8E9"
   },
   {
    "id": "734907959642330",
    "titulo": "Evite Lesões: Raquetes Inadequadas e o Risco de Epicondilite no Beach …",
    "tipo": "vídeo",
-   "gasto": 66.44,
-   "conversas": 5,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwEs5PMz&_nc_oc=Adr_xOmojTcO_6fN-g4MHbsHZ-IRmaNUQxkI5PgiEfHU7rY37xGGz1wLvL9eXM2AjbE&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJCaGVETYIE4vBbXdTlRgQDcd_hC6z7JcqHcYO3Y5EB3cFFqgCu5mCZJaOeyk_yB1isKvO930BE7g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQnhvEs8nuIVMSgwyo7V1WeRl7gMj-0motKmDR4xZX_PQ&oe=6B053E5A"
+   "gasto": 5.86,
+   "conversas": 1,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwFg4ys2&_nc_oc=Adpoxu_cAu2pDqV5OTIEhHYGPBDN2S8QJ8xYtLlIIHXVDdYb9mhdC7mzpHHWzekIN7o&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&_nc_tpa=Q5bMBQJoNkatYXn_sUYZ0WADIQ79YVbUKe9wza_lE4odDz81uavfcOMdU5fUkZOE1ZuS6v5-a1CJVCUh3A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ70sB60neaflErRqPnu1bRajWyW-aMk62jlXQIzDEf4g&oe=6B05E71A"
   },
   {
-   "id": "1021984607266428",
-   "titulo": "2026-08-05-96b46aac2be16becb56656d1545616c0",
+   "id": "857747624015815",
+   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
    "tipo": "vídeo",
-   "gasto": 52.92,
-   "conversas": 5,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/766207312_1066528856292634_5770603260713038344_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=qWHFaThEYe0Q7kNvwGuwg2e&_nc_oc=Adq66BNcRQzx2YAaBazQjNfgiK-8dtOiT0yX3M3qSLeM9x5HAsXNR0lfB3rtcV2W1io&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQLFennW6vY5FFb7S6XmUXNsTCP1Sg6y3R8uhIazsk6ghE50C33T1etuJDBGj2Nfyqt9hSg9NIrJiQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTroRk3o961ARXy6YCSNis32Z4nHGcyq1enT2RT4CO6qw&oe=6B052FE8"
+   "gasto": 9.71,
+   "conversas": 0,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwGRpFxs&_nc_oc=AdoBtNT0oNblaSmXFrRPeOstcHjTvnF-oVrx55o7nWjSKiSMtcIoQFEFKYznilqXgZg&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&_nc_tpa=Q5bMBQKl7Zpn2_6L2jJB9YgcLe-5zJa5BFwaZrM5JqjJ6KDTRJ3CSUv9pYevxWfDVkA-P1CgZyc_g6EKPA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQUVEl2KS-SjlDlVZNLeWqIR9AHV9MkFAHIfeTWsAvXog&oe=6B05D483"
   },
   {
-   "id": "1981278615798152",
-   "titulo": "Joga beach tennis… mas nunca viu isso aqui por dentro.",
-   "tipo": "vídeo",
-   "gasto": 14.07,
-   "conversas": 5,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/694645819_1299852208252091_9026480018042588329_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=0i8omNoOXisQ7kNvwGqBNEF&_nc_oc=AdrByeM-WmlpCYuw1df87W2pnM6hSvDZHEUwJjBMsd9twrjtA9ZEu_y8wudditeo6Ms&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJgvCfaJDEM5Qnr1_MpB9-5iC4HK2gH7hpbwSZ4efN_LnPpjdL70G8N1Xh4phG2-pak3UBj72y-5g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSs9GzcC5ORBFuNfGmP3oj4A-9BYDksPt4kQ08e4cJKLA&oe=6B05306F"
-  },
-  {
-   "id": "1440826168203204",
-   "titulo": "Dor no cotovelo, braço ou ombro durante o Beach Tennis?",
+   "id": "2209381189611348",
+   "titulo": "🔥BLACK FRIDAY VK! A TUA RAQUETE IDEAL COM UMA CONDIÇÃO ESPECIAL!🔥",
    "tipo": "imagem",
-   "gasto": 61.09,
-   "conversas": 4,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.1600-4/901519002_122135601339362214_5892951319397631628_n.png?stp=dst-jpg_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=ff4730&_nc_ohc=M-DnQPzUrYoQ7kNvwHCn_VF&_nc_oc=AdrrI3OnS9IYRLw1Qq9AqxIcvsu7c11jOSjeVD_Hc95B38lEg09hCUoYSabDB5NBO4s&_nc_zt=1&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQL_AIVDE_t9fASYqgpyhQ3ELx2K_VoeZEqKbtWvJfOcg2RdaCofb_IlAkmZxoNFZaJwbfflW8vLKg&oh=00_AQRx64nizzX6lgjH3FRZ9RL9cQH4ua_8djNSmDzGo8p_qQ&oe=6B0563A6"
+   "gasto": 9.44,
+   "conversas": 0,
+   "miniatura": "https://external-ord5-2.xx.fbcdn.net/emg1/v/t13/9941004496931803859?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKIhr5-4FI01HQ_9l7yw9-kC28LyUxrEbYrXeLcExv_8SRyQoynWTN1CZlvGgTLRgdahVmEEkWjrXw9hCYpK_9hhRlHiA3PaWM4bL1ZMV29rKrukvwiykAEmcL2FVSUD14X68u8rJgIacyi4mqhQCQ8&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-2.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQKFIITDeQFRMbdd1m-Sda_Y49-rRiNd00HGQRTDXTxeVFGz8TqYV36JTGTNMdy9VbSdYGclFeamzg&oh=06_Q3_FAUAE3SkHkdfu6W8G7i6T-TeWdnuIQOMVdXyPMGtShocK&oe=6B020378"
   }
  ],
- "estrutura": {
-  "antes": 32,
-  "depois": 3,
-  "desde": "2026-11-19"
- },
+ "vendas_periodo": "novembro",
+ "vendas_criativos": [
+  {
+   "nome": "Post Feedback",
+   "vendas": 2,
+   "gasto": 499.85,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQK8mLrmNJYC34LWCwm9B2c7esg18DbLna10A61dRZLp05kif6O_4__HpoDzvI8G5p0rg1PzWjZa6A&oh=06_Q3_FAQ49v17tlJeI7K2IK3schetqVYfCb3ZsgHrfQrCbTFf3&oe=6B01F8E9"
+  },
+  {
+   "nome": "Reels 24.01",
+   "vendas": 1,
+   "gasto": 12.2,
+   "miniatura": ""
+  },
+  {
+   "nome": "Story Feedback",
+   "vendas": 1,
+   "gasto": 91.63,
+   "miniatura": ""
+  },
+  {
+   "nome": "Carrossel 08.11",
+   "vendas": 1,
+   "gasto": 98.87,
+   "miniatura": ""
+  },
+  {
+   "nome": "Estático IA Vanessa",
+   "vendas": 1,
+   "gasto": 125.39,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 18.09",
+   "vendas": 1,
+   "gasto": 149.47,
+   "miniatura": ""
+  },
+  {
+   "nome": "Dark Post Raquete Errada",
+   "vendas": 1,
+   "gasto": 156.02,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 04.10",
+   "vendas": 1,
+   "gasto": 192.65,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 27.06",
+   "vendas": 1,
+   "gasto": 194.87,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 12.11",
+   "vendas": 1,
+   "gasto": 279.97,
+   "miniatura": ""
+  },
+  {
+   "nome": "Reels 29.04",
+   "vendas": 1,
+   "gasto": 287.22,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwGRpFxs&_nc_oc=AdoBtNT0oNblaSmXFrRPeOstcHjTvnF-oVrx55o7nWjSKiSMtcIoQFEFKYznilqXgZg&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&_nc_tpa=Q5bMBQKl7Zpn2_6L2jJB9YgcLe-5zJa5BFwaZrM5JqjJ6KDTRJ3CSUv9pYevxWfDVkA-P1CgZyc_g6EKPA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQUVEl2KS-SjlDlVZNLeWqIR9AHV9MkFAHIfeTWsAvXog&oe=6B05D483"
+  },
+  {
+   "nome": "Reels Epicondilite",
+   "vendas": 1,
+   "gasto": 531.5,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwFg4ys2&_nc_oc=Adpoxu_cAu2pDqV5OTIEhHYGPBDN2S8QJ8xYtLlIIHXVDdYb9mhdC7mzpHHWzekIN7o&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=9R6ZUTOCcUnkPQ22RShBfw&_nc_tpa=Q5bMBQJoNkatYXn_sUYZ0WADIQ79YVbUKe9wza_lE4odDz81uavfcOMdU5fUkZOE1ZuS6v5-a1CJVCUh3A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ70sB60neaflErRqPnu1bRajWyW-aMk62jlXQIzDEf4g&oe=6B05E71A"
+  }
+ ],
  "ia": [
   {
    "icone": "📡",
@@ -231,73 +261,9 @@
    "status": "próximo"
   }
  ],
- "vendas_criativos": [
-  {
-   "nome": "Post Feedback",
-   "vendas": 2,
-   "gasto": 499.85,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQLHVithaiqOYlqLIt07GXPfNqEE3pIGFxNGANW55QpcTwmh4M8rV9DOguBnx2AmKAezm_LFtnvq6A&oh=06_Q3_FAQOreYOcbvhVii2oUEEq9Tp7nkKcdzr3b5gsxvtjXjNc&oe=6B015029"
-  },
-  {
-   "nome": "Reels 24.01",
-   "vendas": 1,
-   "gasto": 12.2,
-   "miniatura": ""
-  },
-  {
-   "nome": "Carrossel 08.11",
-   "vendas": 1,
-   "gasto": 98.87,
-   "miniatura": ""
-  },
-  {
-   "nome": "Estático IA Vanessa",
-   "vendas": 1,
-   "gasto": 125.39,
-   "miniatura": ""
-  },
-  {
-   "nome": "Reels 18.09",
-   "vendas": 1,
-   "gasto": 149.47,
-   "miniatura": ""
-  },
-  {
-   "nome": "Dark Post Raquete Errada",
-   "vendas": 1,
-   "gasto": 156.02,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/884913872_2527643844395575_8788371028307528158_n.avif?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=jtJGPkCyS6cQ7kNvwHW2TPO&_nc_oc=Adpy7W7tPLmF2ZZBilADOTk52LaOo7anqLwY1XkCcZA2CCqT-Gzu3AAe6AfUB6DFiVs&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJUCuWH-6HgkDipkvxTkh6IJi5EjXOTj99Zan9WoFeL1lNeJxXW_4BUQNu9btufUW66cTZh3NkFUA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQRAl5XdmcOSgqYFZ4o6je9v4wDABuqra1YW5GF5jfAX1w&oe=6B054AD2"
-  },
-  {
-   "nome": "Reels 04.10",
-   "vendas": 1,
-   "gasto": 192.65,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895041009_1718292916299698_7504479404677061556_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=l0WHrShnyXAQ7kNvwFFSGpb&_nc_oc=AdpvJr6xMdjJiyuc4oW1rlSiPJDi5IhTqGwIMhLH57nbPqbBoZfRYMz4n2XkCSWrM3M&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQL5zLzXgae6mX_38_gzXJzg_2YguAqrKAR7sP7oE0Vb5742PLyVlKM7HpY6WD9VlYN2lqW4h3-eSg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRtiRTN3uOp8ZyI4ZuqhX3HEUe-wOyuNG3JWU5TcCXabw&oe=6B0541A2"
-  },
-  {
-   "nome": "Reels 27.06",
-   "vendas": 1,
-   "gasto": 194.87,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=pmYZ80ZcZNMQ7kNvwElkvLY&_nc_oc=AdqTN_jWB_g_hj14gL5_90j4uSRYEtZI_XB3MgeOuuYHpOMUnBDLL2EKgERdPrv2nWA&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQII0Rdv8bIswjIrdCctkhScExMkMiiMPLsuSWD5d1gyk6EmGRXwjhWJrI3zrXO91MolUHNFks3XOQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRJ8aiIOsjLIsAK20BjISnuXhrarvs0bepk2ABmgPPCGw&oe=6B055984"
-  },
-  {
-   "nome": "Reels 12.11",
-   "vendas": 1,
-   "gasto": 279.97,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=WmbSO-FWxxIQ7kNvwGbOeKo&_nc_oc=AdqBVH4H3IR5yTs7inWL7xFgCLvFohXOs95HNDytYes2Jo2Zh41VN_ufmcypPOdpTVo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJULHYyQfkpNfdATHMIADsK_4nQapB5mQUiax6aVSp0jvLuWk1LUVAG4MakAiqcEVjlYQKnBX8Yww&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRuAgH_MSfKdYHLintPCpIOe0GS8SuCMmQbMWEiGJf0lA&oe=6B052DA5"
-  },
-  {
-   "nome": "Reels 29.04",
-   "vendas": 1,
-   "gasto": 287.22,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=iPkpmFV72ZgQ7kNvwH-gFMX&_nc_oc=Adpfxh5seRlaJf3sGlKo-zEwYrgE1SsQgK7pvA6C4YwViFMPmtHAPyXEa7NVL_5CpnI&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJQOy7pptUrOlirL_xg9zcNheOVYU64y6bJdE7lL8HDLD1YPQ0vrE3ucMHrj65r4c0Ymx98yosaZg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ7vrd33nGvrxkz0JJozwWX_y_h1cKPnbE5oB_76PWDvw&oe=6B052BC3"
-  },
-  {
-   "nome": "Reels Epicondilite",
-   "vendas": 1,
-   "gasto": 531.5,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwEs5PMz&_nc_oc=Adr_xOmojTcO_6fN-g4MHbsHZ-IRmaNUQxkI5PgiEfHU7rY37xGGz1wLvL9eXM2AjbE&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQJCaGVETYIE4vBbXdTlRgQDcd_hC6z7JcqHcYO3Y5EB3cFFqgCu5mCZJaOeyk_yB1isKvO930BE7g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQnhvEs8nuIVMSgwyo7V1WeRl7gMj-0motKmDR4xZX_PQ&oe=6B053E5A"
-  }
- ],
- "vendas_periodo": "novembro"
+ "estrutura": {
+  "antes": 32,
+  "depois": 3,
+  "desde": "2026-11-19"
+ }
 }

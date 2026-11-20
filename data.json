@@ -2,17 +2,17 @@
  "cliente": "Vanessa Kreitchmann",
  "atualizado_em": "2026-11-19T19:16:16-03:00",
  "saldo": {
-  "valor": 0.28,
-  "lido_em": "2026-11-19T20:31:16-03:00"
+  "valor": null,
+  "lido_em": null
  },
  "verba_semana": {
-  "dom": 350,
-  "seg": 350,
-  "ter": 350,
-  "qua": 252,
-  "qui": 252,
-  "sex": 213,
-  "sab": 213
+  "dom": 300,
+  "seg": 300,
+  "ter": 250,
+  "qua": 250,
+  "qui": 250,
+  "sex": 200,
+  "sab": 0
  },
  "hoje": {
   "data": "2026-11-19",
@@ -186,6 +186,49 @@
    "gasto": 61.09,
    "conversas": 4,
    "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.1600-4/901519002_122135601339362214_5892951319397631628_n.png?stp=dst-jpg_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=ff4730&_nc_ohc=M-DnQPzUrYoQ7kNvwHCn_VF&_nc_oc=AdrrI3OnS9IYRLw1Qq9AqxIcvsu7c11jOSjeVD_Hc95B38lEg09hCUoYSabDB5NBO4s&_nc_zt=1&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=j6nZaOr4EMPjN3uezbluOQ&_nc_tpa=Q5bMBQL_AIVDE_t9fASYqgpyhQ3ELx2K_VoeZEqKbtWvJfOcg2RdaCofb_IlAkmZxoNFZaJwbfflW8vLKg&oh=00_AQRx64nizzX6lgjH3FRZ9RL9cQH4ua_8djNSmDzGo8p_qQ&oe=6B0563A6"
+  }
+ ],
+ "estrutura": {
+  "antes": 32,
+  "depois": 3,
+  "desde": "2026-11-19"
+ },
+ "ia": [
+  {
+   "icone": "📡",
+   "titulo": "Monitoramento diário",
+   "texto": "Todo dia a IA lê os números da conta, atualiza este painel e avisa quando o saldo está acabando.",
+   "status": "ativo"
+  },
+  {
+   "icone": "🧩",
+   "titulo": "Campanhas unificadas",
+   "texto": "32 campanhas pequenas viraram 3 fortes, com os 19 criativos que mais trouxeram conversas nos dias bons.",
+   "status": "ativo"
+  },
+  {
+   "icone": "📅",
+   "titulo": "Verba nos dias certos",
+   "texto": "Mais investimento de domingo a terça, menos na sexta e nada no sábado. O saldo dura mais e rende mais.",
+   "status": "ativo"
+  },
+  {
+   "icone": "📱",
+   "titulo": "Público iPhone 16 e 17",
+   "texto": "Anúncios focados em quem joga beach tennis e usa iPhone novo, além de quem já interagiu com seu Instagram.",
+   "status": "ativo"
+  },
+  {
+   "icone": "🎯",
+   "titulo": "A Meta aprendendo com as vendas",
+   "texto": "Cada formulário de assessoria preenchido avisa a Meta que houve uma venda. Ela passa a procurar gente parecida com quem compra, não só com quem conversa.",
+   "status": "implantando"
+  },
+  {
+   "icone": "📈",
+   "titulo": "Campanha otimizada para vendas",
+   "texto": "Em julho, quando a Meta recebia as vendas, o custo por fechamento foi o menor do 2º semestre. Assim que as vendas voltarem a chegar, reativamos esse modelo.",
+   "status": "próximo"
   }
  ]
 }

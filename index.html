@@ -2,102 +2,250 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b2a30">
 <title>Painel de anúncios — Vanessa Kreitchmann</title>
 <style>
-:root{--bg:#f7f4ee;--card:#fff;--tx:#1f2a30;--mut:#6b7780;--ln:#ebe5da;--ac:#0f7c8a;--ac2:#e7f3f4;--ok:#1e8a5a;--bad:#c4402c;--badbg:#fdecea;--warn:#a8610a}
+:root{
+  --bg:#f4efe6;--card:#ffffff;--tx:#14262b;--mut:#6d7a80;--ln:#ebe3d5;
+  --deep:#0b2a30;--deep2:#12414a;--teal:#14a3a8;--teal2:#d9f1f1;
+  --sun:#f2b33d;--coral:#ef6f53;--ok:#1f9d63;--bad:#d2452f;
+  --r:20px;--sh:0 1px 2px rgba(20,38,43,.04),0 8px 24px rgba(20,38,43,.06);
+}
 *{box-sizing:border-box}
-body{margin:0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx)}
-.wrap{max-width:720px;margin:0 auto;padding:18px 16px 40px}
-header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
-.logo{width:42px;height:42px;border-radius:50%;background:var(--ac);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0}
-h1{font-size:18px;margin:0;line-height:1.2}
-.sub{color:var(--mut);font-size:12.5px}
-.alert{display:none;background:var(--badbg);color:var(--bad);border:1px solid #f5c2bb;border-radius:14px;padding:12px 14px;margin-bottom:12px;font-weight:600}
-.alert small{display:block;font-weight:400;color:#8a3a2e;margin-top:2px}
-.saldo{background:var(--ac);color:#fff;border-radius:18px;padding:18px;margin-bottom:12px}
-.saldo .l{font-size:13px;opacity:.85}
-.saldo .v{font-size:34px;font-weight:700;letter-spacing:-.5px;margin:2px 0}
-.saldo .m{font-size:12.5px;opacity:.85}
-.saldo.low{background:var(--bad)}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
-.k{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:14px}
-.k .l{color:var(--mut);font-size:12.5px}
-.k .v{font-size:22px;font-weight:700;margin-top:2px}
-.k .d{font-size:12px;margin-top:2px}
-.up{color:var(--ok)}.down{color:var(--bad)}
-.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;padding:14px;margin-bottom:12px}
-h2{font-size:15px;margin:0 0 2px}
-.h2s{color:var(--mut);font-size:12.5px;margin-bottom:10px}
-.cr{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--ln)}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;background:var(--bg);color:var(--tx)}
+.wrap{max-width:760px;margin:0 auto;padding:0 14px 48px}
+/* HERO */
+.hero{position:relative;overflow:hidden;margin:0 -14px 14px;padding:22px 20px 26px;color:#fff;
+  background:radial-gradient(120% 90% at 100% 0%,#1d6d73 0%,transparent 55%),radial-gradient(90% 80% at 0% 100%,#0e3b43 0%,transparent 60%),linear-gradient(160deg,var(--deep),var(--deep2));
+  border-radius:0 0 28px 28px}
+@media(min-width:760px){.hero{margin:14px 0 14px;border-radius:28px}}
+.ball{position:absolute;right:-30px;top:-30px;width:150px;height:150px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#fff6b0,#d9e83a 45%,#b6c51e 70%);opacity:.18;animation:spin 30s linear infinite}
+.ball:after{content:"";position:absolute;inset:14px;border-radius:50%;border:3px solid rgba(255,255,255,.7);border-left-color:transparent;border-right-color:transparent;transform:rotate(25deg)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.top{display:flex;align-items:center;gap:12px;position:relative}
+.logo{width:44px;height:44px;border-radius:14px;background:rgba(255,255,255,.12);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;font-weight:800;letter-spacing:.5px;border:1px solid rgba(255,255,255,.18)}
+.top h1{font-size:18px;margin:0;line-height:1.15}
+.top .s{font-size:12.5px;opacity:.75}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);padding:3px 9px;border-radius:99px;margin-top:14px}
+.live i{width:7px;height:7px;border-radius:50%;background:#5ef0a6;box-shadow:0 0 0 0 rgba(94,240,166,.7);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(94,240,166,0)}100%{box-shadow:0 0 0 0 rgba(94,240,166,0)}}
+.hero .big{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px;position:relative}
+.hk{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:14px}
+.hk .l{font-size:12px;opacity:.75}
+.hk .v{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-top:2px;font-variant-numeric:tabular-nums}
+.hk .d{font-size:11.5px;margin-top:3px;opacity:.9}
+.hk.wide{grid-column:1/-1;display:flex;align-items:center;gap:14px}
+.hk.wide .v{font-size:30px}
+.ring{width:64px;height:64px;flex-shrink:0}
+.up{color:#5ef0a6}.down{color:#ffb4a5}
+.dark .up{color:var(--ok)}.dark .down{color:var(--bad)}
+/* ALERT */
+.alert{display:flex;gap:10px;align-items:flex-start;background:#fff1ee;border:1px solid #f6c9bf;color:#9a2f1d;border-radius:16px;padding:12px 14px;margin-bottom:12px;font-size:14px}
+.alert b{display:block}
+/* CARDS */
+.card{background:var(--card);border-radius:var(--r);padding:16px;margin-bottom:12px;box-shadow:var(--sh);opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.card.in{opacity:1;transform:none}
+h2{font-size:16px;margin:0;display:flex;align-items:center;gap:8px}
+.h2s{color:var(--mut);font-size:12.5px;margin:2px 0 12px}
+.pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--teal2);color:#0d6f73}
+/* KPI ROW */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.kp{background:var(--bg);border-radius:14px;padding:11px 10px}
+.kp .l{font-size:11.5px;color:var(--mut)}
+.kp .v{font-size:19px;font-weight:800;margin-top:2px;font-variant-numeric:tabular-nums}
+.kp .d{font-size:11px;margin-top:1px}
+/* CHART */
+.tabs{display:inline-flex;background:var(--bg);border-radius:12px;padding:3px;gap:2px;margin-bottom:10px}
+.tabs button{border:0;background:transparent;font:inherit;font-size:12.5px;padding:6px 11px;border-radius:9px;color:var(--mut);cursor:pointer}
+.tabs button.on{background:#fff;color:var(--tx);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.chartbox{position:relative}
+svg.ch{width:100%;height:190px;display:block;overflow:visible}
+.tip{position:absolute;pointer-events:none;background:var(--deep);color:#fff;font-size:12px;padding:7px 9px;border-radius:10px;white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .15s}
+.tip b{font-size:13px}
+.leg{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--mut);margin-top:8px}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+/* CREATIVES */
+.cr{display:grid;grid-template-columns:54px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--ln)}
 .cr:first-of-type{border-top:0}
-.cr img{width:56px;height:56px;border-radius:10px;object-fit:cover;background:var(--ac2);flex-shrink:0}
-.cr .t{flex:1;min-width:0}
-.cr .t b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-size:14px;font-weight:600;line-height:1.3;overflow:hidden}
-.cr .t span{color:var(--mut);font-size:12.5px}
-.cr .n{text-align:right;flex-shrink:0}
-.cr .n b{display:block;font-size:16px}
-.cr .n span{color:var(--mut);font-size:11.5px}
-.badge{display:inline-block;background:#fff4dc;color:var(--warn);font-size:11px;font-weight:600;padding:1px 7px;border-radius:99px;margin-left:4px;vertical-align:1px}
-.top{background:var(--ac2);color:var(--ac)}
-.chart{display:flex;align-items:flex-end;gap:4px;height:120px;margin-top:6px}
-.bar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
-.bar i{display:block;width:100%;background:var(--ac);border-radius:5px 5px 2px 2px;min-height:2px;opacity:.85}
-.bar.fds i{background:#b9c6c9}
-.bar em{font-style:normal;font-size:10px;color:var(--mut);margin-top:4px}
-.bar u{text-decoration:none;font-size:10px;color:var(--tx);margin-bottom:2px}
-.leg{display:flex;gap:14px;font-size:11.5px;color:var(--mut);margin-top:8px}
-.leg i{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--ac);margin-right:5px;vertical-align:-1px}
-.leg i.f{background:#b9c6c9}
-.plan{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;margin-top:4px}
-.plan div{background:var(--bg);border-radius:10px;padding:8px 2px;font-size:11.5px;color:var(--mut)}
-.plan div b{display:block;color:var(--tx);font-size:13px;margin-top:2px}
-.plan div.hi{background:var(--ac2)}
-.plan div.today{outline:2px solid var(--ac)}
+.th{width:54px;height:54px;border-radius:12px;background:linear-gradient(135deg,var(--teal2),#f6e7c9);position:relative;overflow:hidden}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th .rk{position:absolute;left:4px;top:4px;background:var(--deep);color:#fff;font-size:10.5px;font-weight:800;width:19px;height:19px;border-radius:7px;display:flex;align-items:center;justify-content:center}
+.th .rk.g{background:var(--sun);color:#3d2a00}
+.cr .t{min-width:0}
+.cr .t b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-size:13.5px;line-height:1.3;overflow:hidden;font-weight:650}
+.meter{height:6px;background:var(--bg);border-radius:99px;margin-top:6px;overflow:hidden}
+.meter i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--teal),#5fd3c9);transition:width 1.1s cubic-bezier(.2,.8,.2,1)}
+.cr .n{text-align:right}
+.cr .n b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
+.cr .n span{color:var(--mut);font-size:11px}
+/* WEEK PLAN */
+.plan{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;align-items:end;height:120px}
+.pd{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:11px;color:var(--mut)}
+.pd .col{width:100%;border-radius:9px 9px 4px 4px;background:var(--teal2);height:0;transition:height 1s cubic-bezier(.2,.8,.2,1);position:relative}
+.pd.hi .col{background:linear-gradient(180deg,var(--teal),#0d7c80)}
+.pd.off .col{background:repeating-linear-gradient(45deg,#eee5d6,#eee5d6 4px,#f7f1e6 4px,#f7f1e6 8px)}
+.pd.today{color:var(--tx);font-weight:800}
+.pd b{font-size:11.5px;color:var(--tx);margin-bottom:3px}
+.pd em{font-style:normal;margin-top:5px}
+/* STRUCTURE */
+.morph{display:flex;align-items:center;gap:14px}
+.dots{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;flex:1}
+.dots i{aspect-ratio:1;border-radius:50%;background:#e2d9c8;transition:all .6s}
+.dots.done i{background:#efe8da;transform:scale(.7)}
+.arrow{font-size:22px;color:var(--mut)}
+.three{display:flex;gap:6px}
+.three i{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--teal),#0d7c80);box-shadow:0 4px 10px rgba(20,163,168,.35);transform:scale(0);transition:transform .5s cubic-bezier(.3,1.6,.5,1)}
+.three.on i{transform:scale(1)}
+.three.on i:nth-child(2){transition-delay:.12s}.three.on i:nth-child(3){transition-delay:.24s}
+/* AI */
+.ai{background:linear-gradient(165deg,var(--deep),#103a41);color:#fff}
+.ai h2{color:#fff}
+.ai .h2s{color:rgba(255,255,255,.7)}
+.steps{position:relative;margin-top:6px}
+.steps:before{content:"";position:absolute;left:19px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,rgba(94,240,166,.7),rgba(242,179,61,.6),rgba(255,255,255,.15))}
+.st{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:8px 0;position:relative}
+.st .ic{width:40px;height:40px;border-radius:13px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-size:19px;position:relative;z-index:1;backdrop-filter:blur(3px)}
+.st b{font-size:14px}
+.st p{margin:2px 0 0;font-size:12.8px;opacity:.8}
+.tag{font-size:10.5px;font-weight:800;letter-spacing:.3px;text-transform:uppercase;padding:2px 7px;border-radius:99px;margin-left:6px;vertical-align:1px}
+.tag.ativo{background:rgba(94,240,166,.18);color:#7ff5b8}
+.tag.implantando{background:rgba(242,179,61,.2);color:#ffd27a}
+.tag.próximo{background:rgba(255,255,255,.12);color:rgba(255,255,255,.75)}
 footer{color:var(--mut);font-size:11.5px;text-align:center;margin-top:18px;line-height:1.6}
-.err{background:var(--badbg);color:var(--bad);padding:14px;border-radius:12px}
+.err{background:#fff1ee;color:var(--bad);padding:14px;border-radius:12px;margin-top:20px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.card{opacity:1;transform:none}}
 </style>
 </head>
 <body>
-<div class="wrap" id="app"><p class="sub">Carregando…</p></div>
+<div class="wrap" id="app"><p style="color:#6d7a80;padding:30px 0">Carregando…</p></div>
 <script>
-const R=v=>"R$ "+Number(v||0).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+const R=(v,d=2)=>"R$ "+Number(v||0).toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
 const N=v=>Number(v||0).toLocaleString("pt-BR");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const DS=["dom","seg","ter","qua","qui","sex","sab"],DSL=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
 const dt=iso=>new Date(iso.length===10?iso+"T12:00:00-03:00":iso);
 const fdia=iso=>{const d=dt(iso);return DSL[d.getDay()]+" "+String(d.getDate()).padStart(2,"0")+"/"+String(d.getMonth()+1).padStart(2,"0")};
-const fhora=iso=>{const d=dt(iso);return d.toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).replace(",", " às")};
-const cpc=(g,c)=>c?R(g/c):"—";
-function delta(a,b,inv){if(!b)return"";const p=(a-b)/b*100;if(Math.abs(p)<1)return'<span class="d">igual a anteontem</span>';const good=inv?p<0:p>0;return`<span class="d ${good?"up":"down"}">${p>0?"▲":"▼"} ${Math.abs(p).toFixed(0)}% vs. anteontem</span>`}
-function render(d){
-  const hojeIdx=dt(d.hoje.data).getDay(),verbaHoje=d.verba_semana[DS[hojeIdx]]||d.verba_diaria_hoje||0;
-  const media=(d.verba_semana?Object.values(d.verba_semana).reduce((a,b)=>a+b,0)/7:verbaHoje)||1;
-  const dias=d.saldo&&d.saldo.valor!=null?d.saldo.valor/media:null,low=dias!=null&&dias<2;
-  const o=d.ontem,a=d.anteontem,cO=o.conversas?o.gasto/o.conversas:0,cA=a&&a.conversas?a.gasto/a.conversas:0;
-  const mx=Math.max(...d.dias.map(x=>x.gasto),1);
-  const crs=[...d.criativos].sort((x,y)=>y.conversas-x.conversas||y.gasto-x.gasto);
-  let h=`<header><div class="logo">VK</div><div><h1>Seus anúncios</h1><div class="sub">${esc(d.cliente)} · atualizado ${fhora(d.atualizado_em)}</div></div></header>`;
-  if(low)h+=`<div class="alert" style="display:block">⚠️ Saldo acabando: é hora de recarregar<small>O saldo atual cobre menos de 2 dias de anúncios. Sem saldo, a Meta pausa os anúncios.</small></div>`;
-  h+=`<div class="saldo ${low?"low":""}"><div class="l">Saldo disponível na conta</div><div class="v">${d.saldo&&d.saldo.valor!=null?R(d.saldo.valor):"—"}</div><div class="m">${d.saldo&&d.saldo.lido_em?"conferido "+fhora(d.saldo.lido_em):"ainda não conferido"}${dias!=null?(dias<1?" · dá para menos de 1 dia":" · dá para cerca de "+Math.floor(dias)+(Math.floor(dias)===1?" dia":" dias")):""}</div></div>`;
-  h+=`<div class="grid">
-   <div class="k"><div class="l">Investido ontem (${fdia(o.data)})</div><div class="v">${R(o.gasto)}</div>${a?delta(o.gasto,a.gasto):""}</div>
-   <div class="k"><div class="l">Conversas no WhatsApp ontem</div><div class="v">${N(o.conversas)}</div>${a?delta(o.conversas,a.conversas):""}</div>
-   <div class="k"><div class="l">Custo por conversa ontem</div><div class="v">${cpc(o.gasto,o.conversas)}</div>${cA?delta(cO,cA,true):""}</div>
-   <div class="k"><div class="l">Hoje até agora</div><div class="v">${R(d.hoje.gasto)}</div><div class="d sub">${N(d.hoje.conversas)} conversas</div></div>
-  </div>`;
-  h+=`<div class="card"><h2>Este mês</h2><div class="h2s">Do dia 1 até agora</div><div class="grid" style="margin:0"><div><div class="sub">Investido</div><b style="font-size:20px">${R(d.mes.gasto)}</b></div><div><div class="sub">Conversas · custo médio</div><b style="font-size:20px">${N(d.mes.conversas)}</b> <span class="sub">· ${cpc(d.mes.gasto,d.mes.conversas)}</span></div></div></div>`;
-  h+=`<div class="card"><h2>Vídeos e posts rodando</h2><div class="h2s">Os que mais trouxeram conversas nos ${esc(d.criativos_periodo)}</div>`+
-   crs.map((c,i)=>`<div class="cr"><img src="${esc(c.miniatura)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><div class="t"><b>${esc(c.titulo)}</b><span>${c.tipo==="imagem"?"Imagem":"Vídeo"} · ${R(c.gasto)}${i===0&&c.conversas?'<span class="badge top">melhor</span>':""}${!c.gasto?'<span class="badge">começando</span>':""}</span></div><div class="n"><b>${N(c.conversas)}</b><span>${c.conversas?cpc(c.gasto,c.conversas)+"/conversa":"conversas"}</span></div></div>`).join("")+`</div>`;
-  h+=`<div class="card"><h2>Investimento por dia</h2><div class="h2s">Últimos ${d.dias.length} dias · o número em cima é a quantidade de conversas</div><div class="chart">`+
-   d.dias.map(x=>{const w=dt(x.data).getDay();return`<div class="bar ${w===5||w===6?"fds":""}" title="${fdia(x.data)}: ${R(x.gasto)} · ${x.conversas} conversas"><u>${x.conversas}</u><i style="height:${Math.max(2,x.gasto/mx*100)}%"></i><em>${String(dt(x.data).getDate())}</em></div>`}).join("")+
-   `</div><div class="leg"><span><i></i>dias de foco</span><span><i class="f"></i>sexta e sábado (verba menor)</span></div></div>`;
-  if(d.verba_semana)h+=`<div class="card"><h2>Verba planejada por dia</h2><div class="h2s">Mais investimento nos dias de maior procura</div><div class="plan">`+DS.map((k,i)=>`<div class="${["dom","seg","ter"].includes(k)?"hi":""} ${i===hojeIdx?"today":""}">${DSL[i]}<b>${Math.round(d.verba_semana[k])}</b></div>`).join("")+`</div></div>`;
-  h+=`<footer>Valores em reais, conforme a Meta. Conversas = pessoas que iniciaram conversa no WhatsApp pelos anúncios.<br>Atualizado automaticamente todos os dias.</footer>`;
-  document.getElementById("app").innerHTML=h;
+const fhora=iso=>dt(iso).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).replace(","," às");
+const titulo=(t,i)=>/^\d{4}-\d{2}-\d{2}-[0-9a-f]+$/.test(t)?"Vídeo "+t.slice(8,10)+"/"+t.slice(5,7):t;
+function pct(a,b,inv){if(!b)return"";const p=(a-b)/b*100;if(Math.abs(p)<1)return'<span class="d">igual ao dia anterior</span>';const good=inv?p<0:p>0;return`<span class="d ${good?"up":"down"}">${p>0?"▲":"▼"} ${Math.abs(p).toFixed(0)}% vs. dia anterior</span>`}
+
+/* count-up */
+function countUp(el){const to=+el.dataset.to,fmt=el.dataset.fmt,dur=1100,t0=performance.now();
+  const f=v=>fmt==="R"?R(v):fmt==="R0"?R(v,0):N(Math.round(v));
+  (function step(t){const k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3);el.textContent=f(to*e);if(k<1)requestAnimationFrame(step)})(t0)}
+const cu=(v,fmt)=>`<span class="cu" data-to="${v}" data-fmt="${fmt}">${fmt.startsWith("R")?R(0,fmt==="R0"?0:2):"0"}</span>`;
+
+function ring(p){const r=26,c=2*Math.PI*r,o=c*(1-Math.min(1,Math.max(0,p)));
+  return`<svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="${r}" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="7"/><circle cx="32" cy="32" r="${r}" fill="none" stroke="#5ef0a6" stroke-width="7" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c}" data-off="${o}" transform="rotate(-90 32 32)" style="transition:stroke-dashoffset 1.3s cubic-bezier(.2,.8,.2,1)"/><text x="32" y="36" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">${Math.round(p*100)}%</text></svg>`}
+
+function chart(dias,modo,Wc){
+  const W=Math.max(300,Math.round(Wc||700)),H=190,P={l:6,r:6,t:14,b:22},w=W-P.l-P.r,h=H-P.t-P.b,n=dias.length;
+  const xs=i=>P.l+(n===1?w/2:i*w/(n-1));
+  const val=d=>modo==="cpc"?(d.conversas?d.gasto/d.conversas:null):modo==="conv"?d.conversas:d.gasto;
+  const vals=dias.map(val),mx=Math.max(...vals.filter(v=>v!=null),1)*1.15;
+  const ys=v=>P.t+h-(v/mx)*h;
+  const pts=dias.map((d,i)=>[xs(i),vals[i]==null?null:ys(vals[i])]).filter(p=>p[1]!=null);
+  const path=pts.map((p,i)=>{if(!i)return`M${p[0]},${p[1]}`;const q=pts[i-1],cx=(q[0]+p[0])/2;return`C${cx},${q[1]} ${cx},${p[1]} ${p[0]},${p[1]}`}).join("");
+  const col=modo==="cpc"?"#ef6f53":modo==="conv"?"#f2b33d":"#14a3a8";
+  let s=`<svg class="ch" viewBox="0 0 ${W} ${H}"><defs><linearGradient id="g${modo}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".35"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>`;
+  for(let k=1;k<=3;k++){const y=P.t+h*k/4;s+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="#efe8da" stroke-dasharray="3 5"/>`}
+  dias.forEach((d,i)=>{const wd=dt(d.data).getDay();if(wd===6||wd===5)s+=`<rect x="${xs(i)-w/(n-1)/2}" y="${P.t}" width="${w/(n-1)}" height="${h}" fill="#f6efe2" opacity=".7"/>`});
+  if(pts.length){s+=`<path d="${path} L${pts[pts.length-1][0]},${P.t+h} L${pts[0][0]},${P.t+h}Z" fill="url(#g${modo})"/>`;
+  s+=`<path class="ln" d="${path}" fill="none" stroke="${col}" stroke-width="3" stroke-linecap="round"/>`}
+  dias.forEach((d,i)=>{if(vals[i]!=null)s+=`<circle cx="${xs(i)}" cy="${ys(vals[i])}" r="3.5" fill="#fff" stroke="${col}" stroke-width="2"/>`;
+    s+=`<text x="${xs(i)}" y="${H-4}" text-anchor="middle" font-size="11" fill="#8a959a">${dt(d.data).getDate()}</text>`;
+    s+=`<rect class="hit" data-i="${i}" x="${xs(i)-w/(n-1)/2}" y="0" width="${w/(n-1)}" height="${H}" fill="transparent"/>`});
+  return s+"</svg>";
 }
-fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render).catch(()=>{document.getElementById("app").innerHTML='<div class="err">Não foi possível carregar os dados agora. Tente de novo em alguns minutos.</div>'});
+
+function render(d){
+  const hojeIdx=dt(d.hoje.data).getDay();
+  const media=d.verba_semana?Object.values(d.verba_semana).filter(v=>v>0).reduce((a,b)=>a+b,0)/Math.max(1,Object.values(d.verba_semana).filter(v=>v>0).length):300;
+  const diasSaldo=d.saldo&&d.saldo.valor!=null?d.saldo.valor/media:null,low=diasSaldo!=null&&diasSaldo<2;
+  const o=d.ontem,a=d.anteontem,cO=o.conversas?o.gasto/o.conversas:0,cA=a&&a.conversas?a.gasto/a.conversas:0;
+  const dias=d.dias||[];
+  const tot=dias.reduce((s,x)=>({g:s.g+x.gasto,c:s.c+x.conversas}),{g:0,c:0});
+  const metade=Math.floor(dias.length/2),p1=dias.slice(0,metade),p2=dias.slice(metade);
+  const cp=arr=>{const g=arr.reduce((s,x)=>s+x.gasto,0),c=arr.reduce((s,x)=>s+x.conversas,0);return c?g/c:0};
+  const melhor=[...dias].filter(x=>x.conversas).sort((x,y)=>x.gasto/x.conversas-y.gasto/y.conversas)[0];
+  const crs=[...(d.criativos||[])].sort((x,y)=>y.conversas-x.conversas||y.gasto-x.gasto).slice(0,8);
+  const mxc=Math.max(...crs.map(c=>c.conversas),1);
+
+  let h=`<section class="hero"><div class="ball"></div>
+   <div class="top"><div class="logo">VK</div><div><h1>Seus anúncios</h1><div class="s">${esc(d.cliente)}</div></div></div>
+   <div class="live"><i></i>Atualizado ${fhora(d.atualizado_em)}</div>
+   <div class="big">
+    <div class="hk wide">${ring(Math.min(1,d.hoje.gasto/((d.verba_semana||{})[DS[hojeIdx]]||media||1)))}
+      <div><div class="l">Hoje até agora</div><div class="v">${cu(d.hoje.conversas,"N")} <span style="font-size:15px;font-weight:600;opacity:.8">conversas</span></div><div class="d">${R(d.hoje.gasto)} investidos do planejado para hoje</div></div></div>
+    <div class="hk"><div class="l">Conversas ontem</div><div class="v">${cu(o.conversas,"N")}</div>${a?pct(o.conversas,a.conversas):""}</div>
+    <div class="hk"><div class="l">Custo por conversa</div><div class="v">${o.conversas?cu(cO,"R"):"—"}</div>${cA?pct(cO,cA,true):""}</div>
+   </div></section>`;
+
+  if(low)h+=`<div class="alert">⚠️<div><b>Saldo acabando — hora de recarregar</b>O saldo cobre menos de 2 dias. Sem saldo, a Meta pausa os anúncios.</div></div>`;
+
+  h+=`<div class="card dark"><h2>Este mês <span class="pill">desde dia 1</span></h2><div class="h2s">Tudo o que os anúncios trouxeram em novembro até agora</div>
+   <div class="kpis">
+    <div class="kp"><div class="l">Investido</div><div class="v">${cu(d.mes.gasto,"R0")}</div></div>
+    <div class="kp"><div class="l">Conversas</div><div class="v">${cu(d.mes.conversas,"N")}</div></div>
+    <div class="kp"><div class="l">Custo médio</div><div class="v">${d.mes.conversas?R(d.mes.gasto/d.mes.conversas):"—"}</div></div>
+   </div></div>`;
+
+  h+=`<div class="card dark"><h2>Dia a dia</h2><div class="h2s">Últimos ${dias.length} dias · toque no gráfico para ver cada dia</div>
+   <div class="tabs" id="tabs"><button data-m="conv" class="on">Conversas</button><button data-m="gasto">Investimento</button><button data-m="cpc">Custo/conversa</button></div>
+   <div class="chartbox" id="cb">${chart(dias,"conv")}<div class="tip" id="tip"></div></div>
+   <div class="leg"><span><i style="background:#f6efe2;border:1px solid #e9dfcc"></i>sexta e sábado</span>${melhor?`<span>⭐ dia mais eficiente: <b style="color:var(--tx)">${fdia(melhor.data)}</b> (${R(melhor.gasto/melhor.conversas)} por conversa)</span>`:""}</div>
+   ${p1.length&&p2.length?`<div class="kpis" style="margin-top:12px"><div class="kp"><div class="l">Conversas no período</div><div class="v">${N(tot.c)}</div></div><div class="kp"><div class="l">1ª metade · custo</div><div class="v">${R(cp(p1))}</div></div><div class="kp"><div class="l">2ª metade · custo</div><div class="v">${R(cp(p2))}</div><div class="d ${cp(p2)<=cp(p1)?"up":"down"}">${cp(p2)<=cp(p1)?"▼ mais barato":"▲ mais caro"}</div></div></div>`:""}
+  </div>`;
+
+  if(d.estrutura)h+=`<div class="card dark" id="estr"><h2>Conta reorganizada</h2><div class="h2s">Menos campanhas brigando entre si, mais força para os melhores anúncios</div>
+   <div class="morph"><div class="dots" id="dots">${"<i></i>".repeat(Math.min(32,d.estrutura.antes))}</div><div class="arrow">→</div><div class="three" id="three">${"<i></i>".repeat(d.estrutura.depois)}</div></div>
+   <div class="leg"><span><b style="color:var(--tx)">${d.estrutura.antes}</b> campanhas antes</span><span><b style="color:var(--tx)">${d.estrutura.depois}</b> campanhas agora, com os 19 melhores criativos</span></div></div>`;
+
+  if(crs.length)h+=`<div class="card dark"><h2>Vídeos e posts campeões</h2><div class="h2s">Os que mais trouxeram conversas nos ${esc(d.criativos_periodo)}</div>`+
+   crs.map((c,i)=>`<div class="cr"><div class="th">${c.miniatura?`<img src="${esc(c.miniatura)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span class="rk ${i===0?"g":""}">${i+1}</span></div>
+     <div class="t"><b>${esc(titulo(c.titulo))}</b><div class="meter"><i data-w="${c.conversas/mxc*100}"></i></div></div>
+     <div class="n"><b>${N(c.conversas)}</b><span>${c.conversas?R(c.gasto/c.conversas)+"/conv.":"conversas"}</span></div></div>`).join("")+`</div>`;
+
+  if(d.verba_semana){const mxv=Math.max(...Object.values(d.verba_semana),1);
+   h+=`<div class="card dark"><h2>Verba por dia da semana</h2><div class="h2s">Mais investimento quando o público mais procura</div><div class="plan">`+
+   DS.map((k,i)=>{const v=d.verba_semana[k]||0;return`<div class="pd ${["dom","seg","ter"].includes(k)?"hi":""} ${!v?"off":""} ${i===hojeIdx?"today":""}"><b>${v?Math.round(v):"pausa"}</b><div class="col" data-h="${Math.max(6,v/mxv*100)}"></div><em>${DSL[i]}${i===hojeIdx?" •":""}</em></div>`}).join("")+`</div>
+   <div class="leg"><span><i style="background:#14a3a8"></i>dias de foco</span><span><i style="background:#d9f1f1"></i>dias de menor procura</span></div></div>`}
+
+  if(d.ia&&d.ia.length)h+=`<div class="card ai"><h2>🤖 Inteligência artificial trabalhando na sua conta</h2><div class="h2s">O que já está rodando e o que vem a seguir</div><div class="steps">`+
+   d.ia.map(s=>`<div class="st"><div class="ic">${esc(s.icone)}</div><div><b>${esc(s.titulo)}</b><span class="tag ${esc(s.status)}">${esc(s.status)}</span><p>${esc(s.texto)}</p></div></div>`).join("")+`</div></div>`;
+
+  h+=`<footer>Valores em reais, conforme a Meta. Conversas = pessoas que chamaram no WhatsApp pelos anúncios.<br>Painel atualizado automaticamente.</footer>`;
+  document.getElementById("app").innerHTML=h;
+
+  /* interações */
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;el.classList.add("in");
+    el.querySelectorAll(".cu").forEach(countUp);
+    el.querySelectorAll(".meter i").forEach(m=>m.style.width=m.dataset.w+"%");
+    el.querySelectorAll(".col").forEach(c=>c.style.height=c.dataset.h+"%");
+    if(el.id==="estr")setTimeout(()=>{el.querySelector("#dots").classList.add("done");el.querySelector("#three").classList.add("on")},350);
+    io.unobserve(el)}),{threshold:.2});
+  document.querySelectorAll(".card").forEach(c=>io.observe(c));
+  document.querySelectorAll(".hero .cu").forEach(countUp);
+  setTimeout(()=>document.querySelectorAll(".ring [data-off]").forEach(c=>c.style.strokeDashoffset=c.dataset.off),150);
+
+  let modo="conv";const cb=document.getElementById("cb"),tip=()=>document.getElementById("tip");
+  function bindHits(){cb.querySelectorAll(".hit").forEach(r=>{const show=()=>{const x=dias[+r.dataset.i],bb=r.getBoundingClientRect(),pb=cb.getBoundingClientRect(),t=tip();
+      t.innerHTML=`${fdia(x.data)}<br><b>${N(x.conversas)} conversas</b> · ${R(x.gasto)}${x.conversas?"<br>"+R(x.gasto/x.conversas)+" por conversa":""}`;
+      t.style.left=Math.min(pb.width-70,Math.max(70,bb.left-pb.left+bb.width/2))+"px";t.style.top="40px";t.style.opacity=1};
+    r.addEventListener("mouseenter",show);r.addEventListener("click",show);r.addEventListener("mouseleave",()=>tip().style.opacity=0)})}
+  function draw(){cb.innerHTML=chart(dias,modo,cb.clientWidth)+'<div class="tip" id="tip"></div>';const ln=cb.querySelector(".ln");
+    if(ln){const L=ln.getTotalLength();ln.style.strokeDasharray=L;ln.style.strokeDashoffset=L;ln.getBoundingClientRect();ln.style.transition="stroke-dashoffset 1.2s ease";ln.style.strokeDashoffset=0}bindHits()}
+  document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;modo=b.dataset.m;
+    document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));draw()});
+  draw();
+  let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(draw,200)});
+}
+fetch("data.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render)
+ .catch(e=>{console.error(e);document.getElementById("app").innerHTML='<div class="err">Não foi possível carregar os dados agora. Tente de novo em alguns minutos.</div>'});
 </script>
 </body>
 </html>

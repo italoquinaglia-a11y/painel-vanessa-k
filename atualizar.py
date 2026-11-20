@@ -101,6 +101,8 @@ def dados():
         "dias": completos,
         "criativos_periodo": "últimos 7 dias",
         "criativos": criativos,
+        "ia": base.get("ia"),
+        "estrutura": base.get("estrutura"),
     }
     json.dump(out, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"ok: ontem R$ {out['ontem']['gasto']:.2f}, {len(criativos)} criativos, mês R$ {out['mes']['gasto']:.2f}")

@@ -2,32 +2,39 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diagnóstico da sua raquete — Vanessa Kreitchmann</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vanessa Kreitchmann — Diagnóstico da sua raquete</title>
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#0d1b2a">
 <style>
-:root{--navy:#0d1b2a;--y:#f5c400;--sand:#f6efe2;--g:#25d366}
+:root{--navy:#0d1b2a;--y:#f5c400;--me:#fff5cc;--bg:#ece5dd;--g:#25d366}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--navy);color:#fff;min-height:100vh;display:flex;justify-content:center}
-main{width:100%;max-width:520px;padding:28px 20px 40px}
-.tag{display:inline-block;background:var(--y);color:var(--navy);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:20px}
-h1{font-size:30px;line-height:1.15;margin:16px 0 10px}
-h1 em{font-style:normal;color:var(--y)}
-p.lead{opacity:.85;line-height:1.45}
-.bar{height:6px;background:#ffffff22;border-radius:6px;margin:26px 0 22px;overflow:hidden}
-.bar i{display:block;height:100%;width:0;background:var(--y);transition:width .3s}
-.q{display:none}.q.on{display:block}
-.q h2{font-size:21px;line-height:1.25;margin-bottom:16px}
-.opt{display:block;width:100%;text-align:left;background:#ffffff10;border:1.5px solid #ffffff25;color:#fff;font-size:17px;padding:15px 16px;border-radius:12px;margin-bottom:10px;cursor:pointer}
-.opt:active,.opt:hover{border-color:var(--y);background:#f5c4001a}
-input[type=text]{width:100%;font-size:17px;padding:15px 16px;border-radius:12px;border:1.5px solid #ffffff40;background:#ffffff10;color:#fff}
-.next{margin-top:12px;width:100%;background:var(--y);color:var(--navy);font-weight:700;font-size:17px;padding:15px;border:0;border-radius:12px;cursor:pointer}
-.res{background:var(--sand);color:var(--navy);border-radius:16px;padding:22px}
-.res h2{font-size:22px;margin-bottom:10px}
-.res p{line-height:1.45;margin-bottom:10px}
-.wa{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;background:var(--g);color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:16px;border-radius:40px}
-.small{font-size:12px;opacity:.6;margin-top:22px;line-height:1.4}
-.sig{margin-top:26px;font-size:14px;opacity:.75}
+html,body{height:100%}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#d9d2c8;display:flex;justify-content:center}
+.app{width:100%;max-width:480px;height:100dvh;display:flex;flex-direction:column;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='20' cy='20' r='1.2' fill='%23cfc6b8'/%3E%3C/svg%3E")}
+header{background:var(--navy);color:#fff;display:flex;align-items:center;gap:12px;padding:12px 16px;padding-top:max(12px,env(safe-area-inset-top))}
+.av{width:42px;height:42px;border-radius:50%;background:var(--y);color:var(--navy);display:grid;place-items:center;font-weight:800;font-size:16px;flex:none}
+header b{display:block;font-size:16px}
+header small{font-size:12.5px;opacity:.75}
+#chat{flex:1;overflow-y:auto;padding:16px 12px 8px;display:flex;flex-direction:column;gap:6px}
+.m{max-width:82%;padding:9px 12px 8px;border-radius:12px;font-size:15.5px;line-height:1.38;box-shadow:0 1px .5px #0002;animation:in .25s ease-out}
+.v{align-self:flex-start;background:#fff;border-top-left-radius:4px}
+.u{align-self:flex-end;background:var(--me);border-top-right-radius:4px}
+.m b{color:var(--navy)}
+.typing{align-self:flex-start;background:#fff;border-radius:12px;padding:12px 14px;display:flex;gap:4px}
+.typing i{width:7px;height:7px;border-radius:50%;background:#9aa3ad;animation:b 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,60%,100%{transform:translateY(0);opacity:.5}30%{transform:translateY(-4px);opacity:1}}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+#reply{padding:10px 12px;padding-bottom:max(12px,env(safe-area-inset-bottom));background:#f4efe8;border-top:1px solid #0001;display:flex;flex-wrap:wrap;gap:8px;min-height:62px;align-items:center}
+.chip{border:1.5px solid var(--navy);background:#fff;color:var(--navy);font-size:15px;font-weight:600;padding:9px 14px;border-radius:20px;cursor:pointer}
+.chip:active{background:var(--y)}
+.row{display:flex;gap:8px;width:100%}
+.row input{flex:1;font-size:16px;padding:11px 14px;border-radius:22px;border:1.5px solid #0002;outline:none}
+.send{background:var(--navy);color:#fff;border:0;border-radius:50%;width:44px;height:44px;font-size:18px;cursor:pointer;flex:none}
+.wa{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--g);color:#fff;text-decoration:none;font-weight:700;font-size:17px;padding:14px;border-radius:26px}
+.wa svg{width:22px;height:22px}
+.fine{width:100%;text-align:center;font-size:11.5px;color:#6b6b6b;margin-top:2px}
 </style>
 <!-- Pixel Tintim -->
 <script>
@@ -36,64 +43,61 @@ fbq('init','905228488881016');fbq('track','PageView');
 </script>
 </head>
 <body>
-<main>
-  <span class="tag">Diagnóstico gratuito · 30 segundos</span>
-  <h1>Sua raquete está <em>ajudando ou atrapalhando</em> seu braço?</h1>
-  <p class="lead">Responda 4 perguntas e receba no WhatsApp uma primeira leitura da Vanessa Kreitchmann sobre o seu caso.</p>
-  <div class="bar"><i id="bar"></i></div>
-
-  <section class="q on" data-k="categoria">
-    <h2>1. Qual a sua categoria hoje?</h2>
-    <button class="opt">Iniciante</button><button class="opt">D</button><button class="opt">C</button><button class="opt">B</button><button class="opt">A / Pro</button>
-  </section>
-  <section class="q" data-k="frequencia">
-    <h2>2. Quantas vezes você joga por semana?</h2>
-    <button class="opt">1x</button><button class="opt">2x</button><button class="opt">3x</button><button class="opt">4x ou mais</button>
-  </section>
-  <section class="q" data-k="desconforto">
-    <h2>3. Sente algum desconforto depois de jogar?</h2>
-    <button class="opt">Cotovelo</button><button class="opt">Ombro</button><button class="opt">Punho / mão</button><button class="opt">Outro lugar</button><button class="opt">Não sinto</button>
-  </section>
-  <section class="q" data-k="raquete">
-    <h2>4. Qual raquete você usa? (se souber, o peso)</h2>
-    <input type="text" id="rq" placeholder="Ex.: Shark Predator, 360g" maxlength="80">
-    <button class="next" id="fim">Ver meu resultado</button>
-  </section>
-
-  <section class="q" id="resultado">
-    <div class="res">
-      <h2 id="rt"></h2>
-      <p id="rp"></p>
-      <p>A Vanessa analisa nível, frequência, histórico e a raquete atual para indicar peso, balance, EVA e espessura certos — ou só ajustar a que você já tem.</p>
-      <a class="wa" id="wa" href="#" target="_blank" rel="noopener">Enviar meu diagnóstico no WhatsApp</a>
-    </div>
-    <p class="small">Consultoria de equipamento. Não substitui avaliação médica.</p>
-  </section>
-  <p class="sig"><b>Vanessa Kreitchmann</b> · 12 anos desenvolvendo raquetes para grandes marcas</p>
-</main>
+<div class="app">
+  <header><div class="av">VK</div><div><b>Vanessa Kreitchmann</b><small id="st">online</small></div></header>
+  <div id="chat"></div>
+  <div id="reply"></div>
+</div>
 <script>
-// WhatsApp da Vanessa (mesmo número dos anúncios na Meta)
-const WHATSAPP = "555189418635";
-const qs=[...document.querySelectorAll('.q[data-k]')], ans={}; let i=0;
+const WHATSAPP = "555189418635"; // mesmo número dos anúncios na Meta
+const chat=document.getElementById('chat'), reply=document.getElementById('reply'), st=document.getElementById('st');
 const utm=new URLSearchParams(location.search);
 const origem=["utm_source","utm_campaign","utm_content"].map(k=>utm.get(k)).filter(Boolean).join(" / ")||"direto";
-function go(n){qs.forEach(q=>q.classList.remove('on'));if(n<qs.length){qs[n].classList.add('on')}document.getElementById('bar').style.width=(n/qs.length*100)+'%'}
-qs.forEach((q,n)=>q.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{ans[q.dataset.k]=b.textContent;i=n+1;go(i)}));
-document.getElementById('fim').onclick=()=>{
-  ans.raquete=document.getElementById('rq').value.trim()||"não sei";
-  go(qs.length);document.getElementById('resultado').classList.add('on');
-  const dor=ans.desconforto!=="Não sinto", ini=ans.categoria==="Iniciante", comp=["C","D"].includes(ans.categoria);
-  document.getElementById('rt').textContent = dor ? "Vale olhar a configuração da sua raquete." : ini ? "Hora de acertar de primeira." : "Dá para extrair mais do seu jogo.";
-  document.getElementById('rp').textContent = dor
-    ? `Desconforto no ${ans.desconforto.toLowerCase()} é o relato mais comum entre quem procura a consultoria — e muitas vezes tem relação com peso, balance ou rigidez da raquete.`
-    : ini ? "Quem começa com a raquete certa evolui mais rápido e evita trocar duas vezes."
-    : comp ? `Na categoria ${ans.categoria}, a configuração certa faz diferença em controle e consistência nos torneios.`
-    : "Peso, balance e EVA alinhados ao seu estilo fazem diferença no controle e no conforto.";
-  const msg=`Oi Vanessa! Fiz o diagnóstico da raquete:\n• Categoria: ${ans.categoria}\n• Jogo: ${ans.frequencia} por semana\n• Desconforto: ${ans.desconforto}\n• Raquete: ${ans.raquete}\n(origem: ${origem})`;
-  const wa=document.getElementById('wa'); wa.href=`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
-  wa.onclick=()=>{try{fbq('track','Contact',{content_category:ans.categoria,content_name:ans.desconforto})}catch(e){}};
-  try{fbq('track','Lead',{content_category:ans.categoria,content_name:ans.desconforto})}catch(e){}
-};
+const A={};
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+const scroll=()=>chat.scrollTop=chat.scrollHeight;
+async function say(html){
+  st.textContent="digitando…";
+  const t=document.createElement('div');t.className='typing';t.innerHTML='<i></i><i></i><i></i>';chat.appendChild(t);scroll();
+  await wait(Math.min(450+html.replace(/<[^>]+>/g,'').length*14,1500));
+  t.remove();st.textContent="online";
+  const m=document.createElement('div');m.className='m v';m.innerHTML=html;chat.appendChild(m);scroll();await wait(250);
+}
+function me(text){const m=document.createElement('div');m.className='m u';m.textContent=text;chat.appendChild(m);scroll()}
+function choose(opts){return new Promise(res=>{reply.innerHTML='';opts.forEach(o=>{const b=document.createElement('button');b.className='chip';b.textContent=o;b.onclick=()=>{reply.innerHTML='';me(o);res(o)};reply.appendChild(b)})})}
+function ask(ph){return new Promise(res=>{reply.innerHTML=`<div class="row"><input id="tx" placeholder="${ph}" maxlength="80" autocomplete="off"><button class="send" id="sd" aria-label="Enviar">➤</button></div>`;
+  const tx=document.getElementById('tx'),go=()=>{const v=tx.value.trim()||"Não sei";reply.innerHTML='';me(v);res(v)};
+  document.getElementById('sd').onclick=go;tx.onkeydown=e=>{if(e.key==='Enter')go()};})}
+const WA_ICON='<svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>';
+
+(async()=>{
+  await wait(400);
+  await say("Oi! Aqui é a Vanessa 👋🎾");
+  await say("Em 4 perguntinhas rápidas eu já consigo ter uma primeira ideia se a tua raquete está te ajudando ou atrapalhando.");
+  await say("Pra começar: qual a tua <b>categoria</b> hoje?");
+  A.categoria=await choose(["Iniciante","D","C","B","A / Pro"]);
+  await say(A.categoria==="Iniciante"?"Que bom que tá começando! É a melhor hora pra acertar a raquete 😉":`Boa! Categoria ${A.categoria} 💪`);
+  await say("E quantas vezes por semana você joga?");
+  A.freq=await choose(["1x","2x","3x","4x ou mais"]);
+  await say("Você sente algum <b>desconforto</b> depois de jogar?");
+  A.dor=await choose(["Cotovelo","Ombro","Punho / mão","Outro lugar","Não sinto nada"]);
+  const dor=A.dor!=="Não sinto nada";
+  if(dor){await say(`Entendi. Desconforto no ${A.dor.toLowerCase()} é o relato que eu mais escuto nas consultorias, e muitas vezes tem a ver com peso, balance ou rigidez da raquete.`)}
+  else{await say("Ótimo! Então dá pra focar em extrair o máximo do teu jogo 🙌")}
+  await say("Última: qual <b>raquete</b> você usa hoje? Se souber o peso, melhor ainda.");
+  A.raquete=await ask("Ex.: Shark Predator, 360g");
+  try{fbq('track','Lead',{content_category:A.categoria,content_name:A.dor})}catch(e){}
+  const comp=["C","D"].includes(A.categoria), ini=A.categoria==="Iniciante";
+  await say(dor
+    ? "Obrigada! Pelo que você contou, <b>vale muito olhar a configuração da tua raquete</b>. Às vezes nem precisa trocar, só ajustar."
+    : ini ? "Obrigada! Pra quem tá começando, <b>acertar a primeira raquete</b> faz o jogo evoluir bem mais rápido."
+    : comp ? `Obrigada! Na categoria ${A.categoria}, <b>a configuração certa</b> faz muita diferença em controle e consistência nos torneios.`
+    : "Obrigada! Com peso, balance e EVA alinhados ao teu estilo, dá pra ganhar controle e conforto.");
+  await say("Me chama no WhatsApp que eu já recebo tuas respostas e te explico como funciona a consultoria 💛");
+  const msg=`Oi Vanessa! Fiz o diagnóstico da raquete:\n• Categoria: ${A.categoria}\n• Jogo: ${A.freq} por semana\n• Desconforto: ${A.dor}\n• Raquete: ${A.raquete}\n(origem: ${origem})`;
+  reply.innerHTML=`<a class="wa" id="wa" target="_blank" rel="noopener" href="https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}">${WA_ICON}Continuar no WhatsApp</a><div class="fine">Consultoria de equipamento. Não substitui avaliação médica.</div>`;
+  document.getElementById('wa').onclick=()=>{try{fbq('track','Contact',{content_category:A.categoria,content_name:A.dor})}catch(e){}};
+})();
 </script>
 </body>
 </html>

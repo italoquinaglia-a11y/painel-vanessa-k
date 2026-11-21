@@ -91,7 +91,7 @@ def dados():
     criativos.sort(key=lambda x: (-x["conversas"], -x["gasto"]))
     criativos = [c for c in criativos if c["gasto"] >= 5 or c["conversas"] > 0][:10]
     vendas_criativos, vendas_periodo = base.get("vendas_criativos", []), base.get("vendas_periodo")
-    if os.path.exists("raw/vendas.json"):
+    if not USAR_VENDAS_META or os.path.exists("raw/vendas.json"):
         vendas_criativos, vendas_periodo = vendas(crs)
     out = {
         "cliente": base.get("cliente", "Vanessa Kreitchmann"),
@@ -120,9 +120,17 @@ def nome_limpo(n):
     return re.sub(r"^(RMKT|ADV|LAL)\s+—\s+", "", n).strip()
 
 
+USAR_VENDAS_META = False
+
+
 def vendas(crs=None):
     """Vendas (Compra) que a Meta ligou a cada anúncio, somadas por criativo.
     raw/vendas.json: anúncios do mês com name, creative_id, amount_spent, omni_purchase."""
+    # Desligado em 21/11/2026: o "omni_purchase" da Meta soma compras de pixels de lojas
+    # parceiras ligados à conta (ex.: 1389448392342708, 1524540272377373, 1047353003237528),
+    # que não são vendas da Vanessa. O ranking volta quando vier das vendas do Google Forms.
+    if not USAR_VENDAS_META:
+        return [], None
     crs = crs or {}
     j = json.load(open("raw/vendas.json", encoding="utf-8"))
     periodo = j.get("periodo", "este mês") if isinstance(j, dict) else "este mês"

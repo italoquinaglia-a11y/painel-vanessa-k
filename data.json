@@ -1,6 +1,6 @@
 {
  "cliente": "Vanessa Kreitchmann",
- "atualizado_em": "2026-11-21T06:50:26-03:00",
+ "atualizado_em": "2026-11-22T06:49:36-03:00",
  "saldo": {
   "valor": null,
   "lido_em": null
@@ -15,30 +15,25 @@
   "sab": 0
  },
  "hoje": {
-  "data": "2026-11-21",
-  "gasto": 0.14,
+  "data": "2026-11-22",
+  "gasto": 2.06,
   "conversas": 0
  },
  "ontem": {
-  "data": "2026-11-20",
-  "gasto": 240.13,
-  "conversas": 20
+  "data": "2026-11-21",
+  "gasto": 9.14,
+  "conversas": 4
  },
  "anteontem": {
-  "data": "2026-11-19",
-  "gasto": 193.82,
-  "conversas": 19
+  "data": "2026-11-20",
+  "gasto": 240.28,
+  "conversas": 20
  },
  "mes": {
-  "gasto": 6688.9,
-  "conversas": 512
+  "gasto": 6700.11,
+  "conversas": 516
  },
  "dias": [
-  {
-   "data": "2026-11-07",
-   "gasto": 190.79,
-   "conversas": 5
-  },
   {
    "data": "2026-11-08",
    "gasto": 385.71,
@@ -101,8 +96,13 @@
   },
   {
    "data": "2026-11-20",
-   "gasto": 240.13,
+   "gasto": 240.28,
    "conversas": 20
+  },
+  {
+   "data": "2026-11-21",
+   "gasto": 9.14,
+   "conversas": 4
   }
  ],
  "criativos_periodo": "últimos 7 dias",
@@ -113,7 +113,15 @@
    "tipo": "imagem",
    "gasto": 30.94,
    "conversas": 3,
-   "miniatura": "https://external-ord5-2.xx.fbcdn.net/emg1/v/t13/9941004496931803859?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKIhr5-4FI01HQ_9l7yw9-kC28LyUxrEbYrXeLcExv_8SRyQoynWTN1CZlvGgTLRgdahVmEEkWjrXw9hCYpK_9hhRlHiA3PaWM4bL1ZMV29rKrukvwiykAEmcL2FVSUD14X68u8rJgIacyi4mqhQCQ8&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-2.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQJ51CPO7GFxHd3t69gvh1to7fqA7KrjNZR5shSVSyPcW6wzmNhb3542GS330BpECoZMn3aNdTDP0A&oh=06_Q3_FAY_kRXX4ngQ1ABzSazN-OM_3wXBfAUxGFsFjedyoE4PX&oe=6B0354F8"
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/9941004496931803859?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKIhr5-4FI01HQ_9l7yw9-kC28LyUxrEbYrXeLcExv_8SRyQoynWTN1CZlvGgTLRgdahVmEEkWjrXw9hCYpK_9hhRlHiA3PaWM4bL1ZMV29rKrukvwiykAEmcL2FVSUD14X68u8rJgIacyi4mqhQCQ8&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJTOtLUbbdp4ltoNzfpe4NsALWS6-nS57c7K-f_Y5zqYfcXMV2NauYA22RBlHL4ONZNvVon66itBA&oh=06_Q3_FAU-MpMaILBth29OSZ4q-jbeKicBRSbTjEZ0T7EV0j9Db&oe=6B04A678"
+  },
+  {
+   "id": "1455956070052518",
+   "titulo": "3K, 12K ou 18K? O maior número não significa a melhor raquete!",
+   "tipo": "imagem",
+   "gasto": 10.27,
+   "conversas": 3,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/18044402787138796932?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL9_1vAI3K04r87erMReq9BYUwV98LePTbIIljlLijqGo3YSSeM_0S6_BL3yuVEkXVaeoM35l4FhD-vVdUSdFOA-vzMGX4LysGdTnoD6NEudgeqpWIjhFikmGIbdHDNmEDq2YRPrSIqxMvM7AjZYo32&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLT_on_SWcg0eyV8SIEEsKb9OpAVwJ69a66uscXYF9F5NvJYQDimY8Xt4_yHAxoPmFU056QDzX1Yg&oh=06_Q3_FAYlyZdBlatyMdlf7Lpy4Mf61ZtV57Csa_RlxWW4KDAII&oe=6B0493E7"
   },
   {
    "id": "1143127931656740",
@@ -121,7 +129,15 @@
    "tipo": "vídeo",
    "gasto": 27.93,
    "conversas": 2,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895824922_1650340476868379_3951041375862091159_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=16MSDza_uBUQ7kNvwH8B4FU&_nc_oc=AdoEI_UZcW-fNiMadTIlfXGAEkmibnUVYXSLwqtXjJEuWXP7QoDfB8gNun0CcnMryNg&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQJDlVPxnK5qgdq83OhUXVbZUwbon4aw0MI88l7kwUldMAibTx5_jyOGkZ4maBJQQG_c1RWQFevP5g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQnODVN7VdHVq7kWbmIDwxip4mUPlZ_SNkR0Nf0fx8u2A&oe=6B0734DA"
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895824922_1650340476868379_3951041375862091159_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=16MSDza_uBUQ7kNvwFJrD4y&_nc_oc=AdqyZHDfeojJeMLRH1tRr6BJLa2LD23RZEWkZqsRuHRxUNePHMubiaXWHjGB1g-W8_0&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQI1p-ob2SZyN42CgC5zUMzeYYisRfQwf5a3LCHClFUCddM9SQokrR9Ac1FaxiZLUubjfSiolPIT3g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSuyeUUnuhYOEOE8ssB--oolROy1X5YXzXsNgVKtp323A&oe=6B08865A"
+  },
+  {
+   "id": "857747624015815",
+   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
+   "tipo": "vídeo",
+   "gasto": 21.86,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=4GXrYZrwPAEQ7kNvwFh9CU2&_nc_oc=Adqxd5fVAaqt7G7mriTTEV5HdZRiRcGzOhfkgYYmRESHxTdCmsSuDUL_uIGXhMHGlEg&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQJ38HXPWUYBMr0Ij0gUSNxsQLq5lfmbyEz-hJQ898dPORyxkXQK97xyf27OujNk7igQkVGlSkvV9w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRy3SvUrLFr-34xHTphwCqLqeKmjZnxbm0qehyWNQLfEw&oe=6B087783"
   },
   {
    "id": "2004689976737447",
@@ -129,15 +145,7 @@
    "tipo": "vídeo",
    "gasto": 9.08,
    "conversas": 2,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=1c8JdBQ-qmMQ7kNvwEo99_S&_nc_oc=Adr9bhWOogsfTrEUWy9PPnmPwq7ywf8AmbhXFPDsmXQ0e7L0oIlcBLuNy_OgJGr1NuE&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQLIJnqK-ageS_a5_wkhcXhxf2qixYGixr-W3vwFdiDcysCdRDmzCOeBXrEbhqfJrl8gqPpTy_eFbQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQStMJIqtDXiNwBf4EhveQayzK6kyeDYx9eq-CZMDIPS4g&oe=6B0727E5"
-  },
-  {
-   "id": "857747624015815",
-   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
-   "tipo": "vídeo",
-   "gasto": 21.86,
-   "conversas": 1,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=4GXrYZrwPAEQ7kNvwE6_IW1&_nc_oc=AdqMmjDMEoYNtAIyFX6PEem2zC9Gf9i1ZxfCwgF74TiQGBzwR3Uy2i0jGA-uCGNVA_w&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQLkK-XTl1ab6R11FsOXq3o7atibZMRL-3oFfiikBNDHa_33Hq95bCYKHmIhmtj3oAzrWNJS0-EUHw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQT5ozRoQskeMM5pl4oNnvI7jh1znom71Xk2eDyFLGaaAg&oe=6B072603"
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=1c8JdBQ-qmMQ7kNvwH1wzQs&_nc_oc=AdqA5pJ9EgLqaAcR1yVTk-rjngAX0AbJClWl6jg8IHkYl_39-E5i0ZPx9yyqF7YikZQ&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQIzj40iMegO1uXOi6i_UQNFIC9rpt9FuOYA6PhNT-cI7yAyW1elvCy2MQS41AQDikfL1S9FOlZf4g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSTvPmrcK1zsg2tkUivUCG-eSjt9LDVjIPyA2-1a04wVg&oe=6B087965"
   },
   {
    "id": "734907959642330",
@@ -145,7 +153,7 @@
    "tipo": "vídeo",
    "gasto": 20.83,
    "conversas": 1,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwEvh-_6&_nc_oc=AdpDTapIglt0mdozebY7vQaOm6dNosf_YWNRAbxcrrNbGzYYgOBBOc2VrmcWaF-wPrw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQIanrpUi6OrMftTs1vxgPPBxMhEwwt0-7aDlWttmdzxw2bN5irVuo1rA7-wxWCLxzRGyODQ_aQ-mA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRcDkiiNh3igdKTd0F5362tLpXTq6Wo9QDqdQzAarpC5w&oe=6B07389A"
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwFRphvE&_nc_oc=AdpY3qgZk8QqIe2Nnp1MpeufRgO6pTH7hqHgNX17jRemc1tJHtBUyMFaqzztWPFcre8&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQK1zATPtFEI5QEdjBlETmkA-oxw1PTD7weuKIpSvtqp2MVqgtyWjwBz97I32nNxf6cqp4ahs-hbZA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTltdSv5ucyEsUnjYQKjvvksOeXsvv2MbB2O_3tuTN8lQ&oe=6B088A1A"
   },
   {
    "id": "1639683090452780",
@@ -153,7 +161,7 @@
    "tipo": "imagem",
    "gasto": 17.21,
    "conversas": 1,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQLJFBK14YHzEuoBOE69Uv7tcuvBSOKTWYHjM12H6l4T700FyMpkmKyVRJDp3FHE0WB6TvY4S1xFmQ&oh=06_Q3_FAdhF8FsbtV3mP0Op46T-YuQo6QM23zKT_WzcHntkKPLH&oe=6B034A69"
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLXoUiOswiCPG24OuVtMQAjtWoUrcMyAbW0Q39hXyZcqSREE3h6VrNzfnKbMkqGHGBcNJb7SKDpCw&oh=06_Q3_FAXInlsiXN3mq-dnqMBhk0NsDjxk_K6T5-W_nH9UBO76O&oe=6B049BE9"
   },
   {
    "id": "3895248004105254",
@@ -161,7 +169,7 @@
    "tipo": "vídeo",
    "gasto": 16.45,
    "conversas": 1,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775824931_2541112293076066_6191657196886723925_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=Drkip0_1YpQQ7kNvwEhmD4A&_nc_oc=AdpTYNKbQRBn5DEeUHhOvlM32tBNL32HbhOZU5hgdiS0rddUEvUV589MVCD1fIIY-Pw&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQLgHqobxgb7pWma19Ug5xgy9IF8vsFZ3npfCU65FlSpP9JIgNkwV9WKikfSZsxM46Z2HeNRHQAxoA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQR6471FBvQSQ0Cdk8AGVcxKnRZtrnjQrcs7VlsXjxKxPg&oe=6B072D22"
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775824931_2541112293076066_6191657196886723925_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=Drkip0_1YpQQ7kNvwEpGsYE&_nc_oc=AdqvQJDypJx4nBPMX2kP6wQ6iFr3ixdoIbO05w-VLm1KgVUM8nDDdoW5NcjCYtXx9sk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQJTZKw_e7H3LBZV9rqtSB1IoZ_Y2gZn8sWKw56lRQSqq1dpOuZz5i3KhY1EhOW83SlomT7alomuPQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ9thvF92xcFqMYeRJAQFthINS6Tlku-s33XK8AMaiB-w&oe=6B087EA2"
   },
   {
    "id": "1473678577565748",
@@ -169,23 +177,15 @@
    "tipo": "vídeo",
    "gasto": 16.16,
    "conversas": 1,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/691038535_2785055225160777_8486624142457253971_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=XUPBSHXodTAQ7kNvwFVdMo0&_nc_oc=AdrV8ma05QrfftJCBR3A_uyUQdaVsX3z8-5FhFxuF_MMS978v8mM8bkafuhU0GbedWk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQICiFyPtExJFYE0ollVM1B_ax6gFHDtECsv79itDD8GQjfib8HsXTkZJsXmrlE0l5cYHrg_DkNuHg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSeghQ7apqub3bEf2qnKHFIGQIYnjeprVnGSnlPSwV17Q&oe=6B0720E9"
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/691038535_2785055225160777_8486624142457253971_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=ALVvKqcJWPcQ7kNvwH2Gik5&_nc_oc=AdrxRfClYJ6T2JnOcMNDfAU0O4x-KreHU-AIyvL4azzzw4OmTLO1TOwM-L59WOBvuO4&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQKtve-P3y8N0kvcFzqlfC8RSM2zBYeBOcipNHoM5s7dJxzvjXQPRM-el-9v6xagYBif1S0GELAxZQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRn_M8Avolieqr1mBNtQlf9kxQQTpxAbzW5hRSUQaTdvA&oe=6B087269"
   },
   {
    "id": "1686159909353329",
    "titulo": "A maioria dos iniciantes acredita que precisa de uma raquete mais pote…",
    "tipo": "vídeo",
-   "gasto": 13.5,
+   "gasto": 13.62,
    "conversas": 1,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=pmYZ80ZcZNMQ7kNvwFre2FT&_nc_oc=AdoOOU_-vLHm9ai8-HlfVBl4IQclTDuomaf7mDL2YI8h5D4albsiRTSgYbmskEpDEPI&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&_nc_tpa=Q5bMBQLdUsqvZCnGRBoLAIbTj6vGaiePCvEgaggIuqB3xjVQK1YAM83vjuFuDrXJbit2ZLn3e2aUc_W6Ow&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTb9viBHLd2hOkAbQMqlIBota-G9iB0lKb9dUvxcF1VMw&oe=6B0753C4"
-  },
-  {
-   "id": "1431229259147993",
-   "titulo": "Qual a melhor raquete de Beach Tennis para iniciantes?",
-   "tipo": "imagem",
-   "gasto": 7.52,
-   "conversas": 1,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/10861222656437914676?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJn14xKnNjLr0_A2LhRsHfBHXgJlEWLbCHqmkheUK9u0h8kmmTQqDUr5lks9ytwRdxkvmE5k05hbRpGpbAxTqPRwLwY6HSr2tmqTOlNGrs53Y2d5gKjMdwDo24JRxxPDUlS_-jOzjsdV3JnULDWQd8j&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=hkAyZ826HbgAhaMUo9iwwQ&edm=AEZPnVgEAAAA&_nc_map=urlgen_bucketless&_nc_zt=3&_nc_tpa=Q5bMBQIqQqyoCKt8_ITkTIAXUTqvqgc8McwKwecomZ6FxZfOivmsaijUljMPeDK2QbwiVJfw83YZMOqFPA&oh=06_Q3_FAeIBQ1uNsKa7tQJ64MW2sjhMl-6cqCbw5iXg2cXoYKya&oe=6B035ACC"
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=psWDY5jAAy4Q7kNvwFv5TPc&_nc_oc=AdpgQrZcML-lXgL6p7KiBqaEtTn1SaDPcWtHK2aZkzgs_gB0fmqud29Z4SDup2cwZp4&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQLve5ZFE-ycEzPIvV7Y9UAQD3vG512bl2NsnS96zGT7hWm6V6S2drURt58GJYCNCm-JfRKrs7TmaQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTPjHqvAvo6w6tEtau4BCzYw8r_WbPDErgq_Nx4XhP6Vw&oe=6B08A544"
   }
  ],
  "vendas_periodo": null,

@@ -1,6 +1,6 @@
 {
  "cliente": "Vanessa Kreitchmann",
- "atualizado_em": "2026-11-22T06:49:36-03:00",
+ "atualizado_em": "2026-11-23T06:50:42-03:00",
  "saldo": {
   "valor": null,
   "lido_em": null
@@ -15,30 +15,25 @@
   "sab": 0
  },
  "hoje": {
-  "data": "2026-11-22",
-  "gasto": 2.06,
-  "conversas": 0
+  "data": "2026-11-23",
+  "gasto": 4.06,
+  "conversas": 2
  },
  "ontem": {
+  "data": "2026-11-22",
+  "gasto": 344.24,
+  "conversas": 42
+ },
+ "anteontem": {
   "data": "2026-11-21",
   "gasto": 9.14,
   "conversas": 4
  },
- "anteontem": {
-  "data": "2026-11-20",
-  "gasto": 240.28,
-  "conversas": 20
- },
  "mes": {
-  "gasto": 6700.11,
-  "conversas": 516
+  "gasto": 7046.35,
+  "conversas": 560
  },
  "dias": [
-  {
-   "data": "2026-11-08",
-   "gasto": 385.71,
-   "conversas": 48
-  },
   {
    "data": "2026-11-09",
    "gasto": 429.29,
@@ -103,6 +98,11 @@
    "data": "2026-11-21",
    "gasto": 9.14,
    "conversas": 4
+  },
+  {
+   "data": "2026-11-22",
+   "gasto": 344.24,
+   "conversas": 42
   }
  ],
  "criativos_periodo": "últimos 7 dias",
@@ -111,81 +111,81 @@
    "id": "2209381189611348",
    "titulo": "🔥BLACK FRIDAY VK! A TUA RAQUETE IDEAL COM UMA CONDIÇÃO ESPECIAL!🔥",
    "tipo": "imagem",
-   "gasto": 30.94,
-   "conversas": 3,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/9941004496931803859?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKIhr5-4FI01HQ_9l7yw9-kC28LyUxrEbYrXeLcExv_8SRyQoynWTN1CZlvGgTLRgdahVmEEkWjrXw9hCYpK_9hhRlHiA3PaWM4bL1ZMV29rKrukvwiykAEmcL2FVSUD14X68u8rJgIacyi4mqhQCQ8&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQJTOtLUbbdp4ltoNzfpe4NsALWS6-nS57c7K-f_Y5zqYfcXMV2NauYA22RBlHL4ONZNvVon66itBA&oh=06_Q3_FAU-MpMaILBth29OSZ4q-jbeKicBRSbTjEZ0T7EV0j9Db&oe=6B04A678"
+   "gasto": 56.9,
+   "conversas": 4,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/9941004496931803859?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKIhr5-4FI01HQ_9l7yw9-kC28LyUxrEbYrXeLcExv_8SRyQoynWTN1CZlvGgTLRgdahVmEEkWjrXw9hCYpK_9hhRlHiA3PaWM4bL1ZMV29rKrukvwiykAEmcL2FVSUD14X68u8rJgIacyi4mqhQCQ8&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQKje4-4RU3LAnSl8nEUNa_Hrrt5rF-epg1WURyDuIWDqj60gRirHhPclsnNnfwrCjnVokFy0yNcEw&oh=06_Q3_FAWnjUbpGkxA9SUWJaRZMUaoWL6MMn9HtiJj8EJj8aKeH&oe=6B05F7F8"
   },
   {
    "id": "1455956070052518",
    "titulo": "3K, 12K ou 18K? O maior número não significa a melhor raquete!",
    "tipo": "imagem",
-   "gasto": 10.27,
-   "conversas": 3,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/18044402787138796932?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL9_1vAI3K04r87erMReq9BYUwV98LePTbIIljlLijqGo3YSSeM_0S6_BL3yuVEkXVaeoM35l4FhD-vVdUSdFOA-vzMGX4LysGdTnoD6NEudgeqpWIjhFikmGIbdHDNmEDq2YRPrSIqxMvM7AjZYo32&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLT_on_SWcg0eyV8SIEEsKb9OpAVwJ69a66uscXYF9F5NvJYQDimY8Xt4_yHAxoPmFU056QDzX1Yg&oh=06_Q3_FAYlyZdBlatyMdlf7Lpy4Mf61ZtV57Csa_RlxWW4KDAII&oe=6B0493E7"
-  },
-  {
-   "id": "1143127931656740",
-   "titulo": "📌 SALVA ESSE GUIA antes de comprar sua primeira raquete de beach tenni…",
-   "tipo": "vídeo",
-   "gasto": 27.93,
-   "conversas": 2,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895824922_1650340476868379_3951041375862091159_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=16MSDza_uBUQ7kNvwFJrD4y&_nc_oc=AdqyZHDfeojJeMLRH1tRr6BJLa2LD23RZEWkZqsRuHRxUNePHMubiaXWHjGB1g-W8_0&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQI1p-ob2SZyN42CgC5zUMzeYYisRfQwf5a3LCHClFUCddM9SQokrR9Ac1FaxiZLUubjfSiolPIT3g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSuyeUUnuhYOEOE8ssB--oolROy1X5YXzXsNgVKtp323A&oe=6B08865A"
-  },
-  {
-   "id": "857747624015815",
-   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
-   "tipo": "vídeo",
-   "gasto": 21.86,
-   "conversas": 2,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=4GXrYZrwPAEQ7kNvwFh9CU2&_nc_oc=Adqxd5fVAaqt7G7mriTTEV5HdZRiRcGzOhfkgYYmRESHxTdCmsSuDUL_uIGXhMHGlEg&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQJ38HXPWUYBMr0Ij0gUSNxsQLq5lfmbyEz-hJQ898dPORyxkXQK97xyf27OujNk7igQkVGlSkvV9w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRy3SvUrLFr-34xHTphwCqLqeKmjZnxbm0qehyWNQLfEw&oe=6B087783"
+   "gasto": 24.86,
+   "conversas": 4,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/18044402787138796932?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL9_1vAI3K04r87erMReq9BYUwV98LePTbIIljlLijqGo3YSSeM_0S6_BL3yuVEkXVaeoM35l4FhD-vVdUSdFOA-vzMGX4LysGdTnoD6NEudgeqpWIjhFikmGIbdHDNmEDq2YRPrSIqxMvM7AjZYo32&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQI4K88I348oLJe1aT0ZuQ4PmjrxBETQ5nZwrTryS0DivB-UOkmT-oDBFmYzztAwVbKDDanAaE9G0A&oh=06_Q3_FASMS36sbYtHyeKDrxaupxru5xMsHg5BEwMLGg5BgQ4Yt&oe=6B05E567"
   },
   {
    "id": "2004689976737447",
    "titulo": "ente o braço pesar ou aquela dor chata no cotovelo depois de jogar? 😣",
    "tipo": "vídeo",
-   "gasto": 9.08,
-   "conversas": 2,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=1c8JdBQ-qmMQ7kNvwH1wzQs&_nc_oc=AdqA5pJ9EgLqaAcR1yVTk-rjngAX0AbJClWl6jg8IHkYl_39-E5i0ZPx9yyqF7YikZQ&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQIzj40iMegO1uXOi6i_UQNFIC9rpt9FuOYA6PhNT-cI7yAyW1elvCy2MQS41AQDikfL1S9FOlZf4g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSTvPmrcK1zsg2tkUivUCG-eSjt9LDVjIPyA2-1a04wVg&oe=6B087965"
-  },
-  {
-   "id": "734907959642330",
-   "titulo": "Evite Lesões: Raquetes Inadequadas e o Risco de Epicondilite no Beach …",
-   "tipo": "vídeo",
-   "gasto": 20.83,
-   "conversas": 1,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/590306704_1539258427189341_6812909514412432902_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=EEeXzbi3h0kQ7kNvwFRphvE&_nc_oc=AdpY3qgZk8QqIe2Nnp1MpeufRgO6pTH7hqHgNX17jRemc1tJHtBUyMFaqzztWPFcre8&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQK1zATPtFEI5QEdjBlETmkA-oxw1PTD7weuKIpSvtqp2MVqgtyWjwBz97I32nNxf6cqp4ahs-hbZA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTltdSv5ucyEsUnjYQKjvvksOeXsvv2MbB2O_3tuTN8lQ&oe=6B088A1A"
+   "gasto": 21.02,
+   "conversas": 4,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/580659692_1331776454785400_4303378195567971338_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=1c8JdBQ-qmMQ7kNvwFNIcuZ&_nc_oc=AdokiQb16FX_Yv_DM4Bh2VT4JCPIr-9_LPU4lXlt-8S-5B4b1DCAdrcuHs9YO_Nwqao&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQK6-D-MWwcNIX1awXr8UjRCnDORf-6noa7HPd2aR-Yy7ILfXWnNxmUU_whauq9Xg-v8PSpDxADGjw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQShJ2_RVx2OvGIdE9dlIBYHi0u7qo3EyPgSRs9coeDWTw&oe=6B09CAE5"
   },
   {
    "id": "1639683090452780",
    "titulo": "Mais consultorias com resultado exatamente como eu esperava. ❤",
    "tipo": "imagem",
-   "gasto": 17.21,
-   "conversas": 1,
-   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLXoUiOswiCPG24OuVtMQAjtWoUrcMyAbW0Q39hXyZcqSREE3h6VrNzfnKbMkqGHGBcNJb7SKDpCw&oh=06_Q3_FAXInlsiXN3mq-dnqMBhk0NsDjxk_K6T5-W_nH9UBO76O&oe=6B049BE9"
+   "gasto": 50.37,
+   "conversas": 3,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/538672078978416716?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK9r_zQrs6dAuHr6ypzdw07hbtSyOvLvrzsY8mD25uVrmi49ao6lJNUwnLusdniA_uOvzwkS2cIvZpRYvuv7QgzEXWKfNDEI4xxHzK3m0b260vIplPUKBgiZWkUZT4MQWJf-ak6oUIc2vJfZpQzFMld&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQLjqDGicpNYvwkGmCIMbDwEM9sUPhLNcdtByV2aN-s4N8B_FpSzbDS0S9WV5nphw4UUQI1ScVgUfg&oh=06_Q3_FAZpKXgVQs2Q-6j0lUZ_nI9BfYSLXDgell0mGxavN6a8C&oe=6B05ED69"
   },
   {
    "id": "3895248004105254",
    "titulo": "QUER MAIS POTÊNCIA? 🎾⚡ Então NÃO faça isso:",
    "tipo": "vídeo",
-   "gasto": 16.45,
-   "conversas": 1,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775824931_2541112293076066_6191657196886723925_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=Drkip0_1YpQQ7kNvwEpGsYE&_nc_oc=AdqvQJDypJx4nBPMX2kP6wQ6iFr3ixdoIbO05w-VLm1KgVUM8nDDdoW5NcjCYtXx9sk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQJTZKw_e7H3LBZV9rqtSB1IoZ_Y2gZn8sWKw56lRQSqq1dpOuZz5i3KhY1EhOW83SlomT7alomuPQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQQ9thvF92xcFqMYeRJAQFthINS6Tlku-s33XK8AMaiB-w&oe=6B087EA2"
+   "gasto": 30.77,
+   "conversas": 3,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775824931_2541112293076066_6191657196886723925_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=Drkip0_1YpQQ7kNvwFd6t5l&_nc_oc=AdpXUC3zUmem8LDt9hCHPPSPlKahuSYN9Uub7-3EX7oZWQUZwYb_cZejaOYL9590C7w&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQJ5W4_fWWyLKH994vc91DWrYcMzyKxutsUSaqQb-Z-S5iVGNn15OWcteDdyvWeiSwCUw-WHh63uKw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSaZBFhAsRH5js8KCzIDI47FK3hcIwiVwWWhX0CvCJNVA&oe=6B09D022"
   },
   {
-   "id": "1473678577565748",
-   "titulo": "A RAQUETE ERRADA PODE ESTAR ACABANDO COM SEU JOGO! 😱",
+   "id": "1431229259147993",
+   "titulo": "Qual a melhor raquete de Beach Tennis para iniciantes?",
+   "tipo": "imagem",
+   "gasto": 14.05,
+   "conversas": 3,
+   "miniatura": "https://external-ord5-1.xx.fbcdn.net/emg1/v/t13/10861222656437914676?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJn14xKnNjLr0_A2LhRsHfBHXgJlEWLbCHqmkheUK9u0h8kmmTQqDUr5lks9ytwRdxkvmE5k05hbRpGpbAxTqPRwLwY6HSr2tmqTOlNGrs53Y2d5gKjMdwDo24JRxxPDUlS_-jOzjsdV3JnULDWQd8j&fb_obo=1&utld=facebook.com&_nc_sid=58080a&_nc_ht=external-ord5-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ccb=18-1&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&edm=AEZPnVgEAAAA&_nc_zt=3&_nc_tpa=Q5bMBQIyP5f8XoO37CyIUZvcXBsDGGKgA5-aTgNiw38rIMbd9JVYze63I-eXJ0UEDjIRb6Tlr3F-2jgnjA&oh=06_Q3_FASEECRsLCM5Q-o0HkQl00sVtc0NwhczPKW-_UcwOt5qI&oe=6B05FDCC"
+  },
+  {
+   "id": "857747624015815",
+   "titulo": "É iniciante no beach tennis e quer comprar sua primeira raquete sem er…",
    "tipo": "vídeo",
-   "gasto": 16.16,
-   "conversas": 1,
-   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/691038535_2785055225160777_8486624142457253971_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=ALVvKqcJWPcQ7kNvwH2Gik5&_nc_oc=AdrxRfClYJ6T2JnOcMNDfAU0O4x-KreHU-AIyvL4azzzw4OmTLO1TOwM-L59WOBvuO4&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQKtve-P3y8N0kvcFzqlfC8RSM2zBYeBOcipNHoM5s7dJxzvjXQPRM-el-9v6xagYBif1S0GELAxZQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRn_M8Avolieqr1mBNtQlf9kxQQTpxAbzW5hRSUQaTdvA&oe=6B087269"
+   "gasto": 49.24,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/678796976_2730916257263723_1159730098168383550_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=4GXrYZrwPAEQ7kNvwGdJwk4&_nc_oc=AdrcdXMxrMV07ngnRhnSI86bz8r-PX3RplVG0xeiqyTjaQrqpJyEYWtQWwshEFHekL0&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQK9YO6WfIhj5okveJHIR-WMiBN5aAYQ0aNLCe1bKqt7aS9AD82wzgnQm1QqQO5p-aVibm6bnc2bOw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQSh16PYS8WOA4jW8SphSiGHYEd51wlIQsW_X4dV9Dcy_A&oe=6B09C903"
+  },
+  {
+   "id": "1143127931656740",
+   "titulo": "📌 SALVA ESSE GUIA antes de comprar sua primeira raquete de beach tenni…",
+   "tipo": "vídeo",
+   "gasto": 34.81,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895824922_1650340476868379_3951041375862091159_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=16MSDza_uBUQ7kNvwFBFzu5&_nc_oc=AdohIPfv7BdzkrPFFw4k6QNH3dFGrZXCXPbFfZ7OJWX0JRsFm7PJoTPPTc7Oxuo6yHw&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQJQcutqF8O4bjEqM59oUiPV85zfZdGoD6fonJjSJnUclP1RZ_vLyyW3jQRZKGjyG8TMx_sGbivhGQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQRKqez7v-xFHjSN8T7PKBftPhIIwTcghDqwrCJFZfzPGw&oe=6B09D7DA"
   },
   {
    "id": "1686159909353329",
    "titulo": "A maioria dos iniciantes acredita que precisa de uma raquete mais pote…",
    "tipo": "vídeo",
-   "gasto": 13.62,
-   "conversas": 1,
-   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=psWDY5jAAy4Q7kNvwFv5TPc&_nc_oc=AdpgQrZcML-lXgL6p7KiBqaEtTn1SaDPcWtHK2aZkzgs_gB0fmqud29Z4SDup2cwZp4&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=XNOgxCky1_GQ6TOYuepXPw&_nc_tpa=Q5bMBQLve5ZFE-ycEzPIvV7Y9UAQD3vG512bl2NsnS96zGT7hWm6V6S2drURt58GJYCNCm-JfRKrs7TmaQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTPjHqvAvo6w6tEtau4BCzYw8r_WbPDErgq_Nx4XhP6Vw&oe=6B08A544"
+   "gasto": 27.6,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-1.xx.fbcdn.net/v/t15.5256-10/732733320_1350079140404748_3849781660357060870_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=psWDY5jAAy4Q7kNvwGxbPbF&_nc_oc=Adr53emIhZ7vflvd-CCoemeBeO-Wg9uHmUKUtPxfU-0zGLf0fOBlzQZJZasohZC6zz8&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQLfZ_et4jlPmu10RzTHtzhvv8uVfZQXOkblovS2gpKw5MBvTZjlLu8JudarrK_5YwcNl0MEbfr4iQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQS5mlPbSY6lkylj-cYCcdxAIdjHrakXSWNHmYW4dibKSQ&oe=6B09F6C4"
+  },
+  {
+   "id": "1130593589566620",
+   "titulo": "Teu braço dói jogando Beach Tennis? Não normalize isso.",
+   "tipo": "vídeo",
+   "gasto": 8.31,
+   "conversas": 2,
+   "miniatura": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/895041009_1718292916299698_7504479404677061556_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_ohc=0Xs28EP1V1kQ7kNvwHgmU68&_nc_oc=AdoIVKDw5BAK4tcqfZxgnIk5WJntxK2B5JTHYpwAmwOeLBmt_E6jO66WCOkGenUAV_A&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=AEZPnVgEAAAA&_nc_gid=75Zb7lFqMrZC_Qlyb7f7xA&_nc_tpa=Q5bMBQI46aZFCe9a_nXrCDfjJkzMJaUjmuRd_aLyqs9Kz00dAac9dfjcabet25HJHouv8jwlNtHThu4Z_Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a7ce7f&_nc_sid=58080a&oh=00_AQTR17yszsuQvaLRbXKTVeN9p09kwQfPv94vp5tkyqwBOg&oe=6B09DEE2"
   }
  ],
  "vendas_periodo": null,
